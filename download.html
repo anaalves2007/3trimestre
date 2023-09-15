@@ -1,0 +1,1448 @@
+<!doctype html>
+<html lang="pt-br">
+<head><link rel="preload" href="https://www.viajali.com.br/wp-content/cache/w3-cache/all-css/f4906a7904ea097f0f8092100b09e7b8.css" as="style"><link rel="preload" href="https://www.viajali.com.br/wp-content/cache/w3-cache/all-css/27a6703571eae6702ba9b82bbf90f7ac.css" as="style"><script>var w3_googlefont=["https:\/\/fonts.googleapis.com\/css?display=swap&family=Lato%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C700%2C700i%2C900%2C900i","https:\/\/fonts.googleapis.com\/css2?family=Inter:wght@400;700&display=swap"];</script><script>var w3_lazy_load_by_px=200;var blank_image_webp_url = "https://www.viajali.com.br/wp-content/uploads/blank.pngw3.webp";var google_fonts_delay_load = 3000;var w3_upload_path="/wp-content"; var w3_webp_path="/wp-content/w3-webp";var w3_mousemoveloadimg = false;var w3_page_is_scrolled = false;var w3_lazy_load_js = 1;var w3_excluded_js=0;class w3_loadscripts{constructor(e){this.triggerEvents=e,this.eventOptions={passive:!0},this.userEventListener=this.triggerListener.bind(this),this.lazy_trigger,this.style_load_fired,this.lazy_scripts_load_fired=0,this.scripts_load_fired=0,this.scripts_load_fire=0,this.excluded_js=w3_excluded_js,this.w3_lazy_load_js=w3_lazy_load_js,this.w3_fonts="undefined"!=typeof w3_googlefont?w3_googlefont:[],this.w3_styles=[],this.w3_scripts={normal:[],async:[],defer:[],lazy:[]},this.allJQueries=[]}user_events_add(e){this.triggerEvents.forEach(t=>window.addEventListener(t,e.userEventListener,e.eventOptions))}user_events_remove(e){this.triggerEvents.forEach(t=>window.removeEventListener(t,e.userEventListener,e.eventOptions))}triggerListener_on_load(){"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this.load_resources.bind(this)):this.load_resources()}triggerListener(){this.user_events_remove(this),this.lazy_scripts_load_fired=1,this.add_html_class("w3_user"),"loading"===document.readyState?(document.addEventListener("DOMContentLoaded",this.load_style_resources.bind(this)),this.scripts_load_fire||document.addEventListener("DOMContentLoaded",this.load_resources.bind(this))):(this.load_style_resources(),this.scripts_load_fire||this.load_resources())}async load_style_resources(){!this.style_load_fired&&(this.style_load_fired=!0,this.register_styles(),document.getElementsByTagName("html")[0].setAttribute("data-css",this.w3_styles.length),document.getElementsByTagName("html")[0].setAttribute("data-css-loaded",0),this.preload_scripts(this.w3_styles),this.load_styles_preloaded())}async load_styles_preloaded(){setTimeout(function(e){document.getElementsByTagName("html")[0].classList.contains("css-preloaded")?e.load_styles(e.w3_styles):e.load_styles_preloaded()},200,this)}async load_resources(){!this.scripts_load_fired&&(this.scripts_load_fired=!0,this.hold_event_listeners(),this.exe_document_write(),this.register_scripts(),this.add_html_class("w3_start"),"function"==typeof w3_events_on_start_js&&w3_events_on_start_js(),this.preload_scripts(this.w3_scripts.normal),this.preload_scripts(this.w3_scripts.defer),this.preload_scripts(this.w3_scripts.async),await this.load_scripts(this.w3_scripts.normal),await this.load_scripts(this.w3_scripts.defer),await this.load_scripts(this.w3_scripts.async),await this.execute_domcontentloaded(),await this.execute_window_load(),window.dispatchEvent(new Event("w3-scripts-loaded")),this.add_html_class("w3_js"),"function"==typeof w3_events_on_end_js&&w3_events_on_end_js(),this.lazy_trigger=setInterval(this.w3_trigger_lazy_script,500,this))}async w3_trigger_lazy_script(e){e.lazy_scripts_load_fired&&(await e.load_scripts(e.w3_scripts.lazy),e.add_html_class("jsload"),clearInterval(e.lazy_trigger))}add_html_class(e){document.getElementsByTagName("html")[0].classList.add(e)}register_scripts(){document.querySelectorAll("script[type=lazyload_int]").forEach(e=>{e.hasAttribute("data-src")?e.hasAttribute("async")&&!1!==e.async?this.w3_scripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-w3-type")?this.w3_scripts.defer.push(e):this.w3_scripts.normal.push(e):this.w3_scripts.normal.push(e)}),document.querySelectorAll("script[type=lazyload_ext]").forEach(e=>{this.w3_scripts.lazy.push(e)})}register_styles(){document.querySelectorAll("link[data-href]").forEach(e=>{this.w3_styles.push(e)})}async execute_script(e){return await this.repaint_frame(),new Promise(t=>{let s=document.createElement("script"),a;[...e.attributes].forEach(e=>{let t=e.nodeName;"type"!==t&&"data-src"!==t&&("data-w3-type"===t&&(t="type",a=e.nodeValue),s.setAttribute(t,e.nodeValue))}),e.hasAttribute("data-src")?(s.setAttribute("src",e.getAttribute("data-src")),s.addEventListener("load",t),s.addEventListener("error",t)):(s.text=e.text,t()),null!==e.parentNode&&e.parentNode.replaceChild(s,e)})}async execute_styles(e){var t;(t=e).href=t.getAttribute("data-href"),t.rel="stylesheet"}async load_scripts(e){let t=e.shift();return t?(await this.execute_script(t),this.load_scripts(e)):Promise.resolve()}async load_styles(e){let t=e.shift();return t?(this.execute_styles(t),this.load_styles(e)):"loaded"}async load_fonts(e){var t=document.createDocumentFragment();e.forEach(e=>{let s=document.createElement("link");s.href=e,s.rel="stylesheet",t.appendChild(s)}),setTimeout(function(){document.head.appendChild(t)},google_fonts_delay_load)}preload_scripts(e){var t=document.createDocumentFragment(),s=0,a=this;[...e].forEach(i=>{let r=i.getAttribute("data-src"),n=i.getAttribute("data-href");if(r){let d=document.createElement("link");d.href=r,d.rel="preload",d.as="script",t.appendChild(d)}else if(n){let l=document.createElement("link");l.href=n,l.rel="preload",l.as="style",s++,e.length==s&&(l.dataset.last=1),t.appendChild(l),l.onload=function(){fetch(this.href).then(e=>e.blob()).then(e=>{a.update_css_loader()}).catch(e=>{a.update_css_loader()})},l.onerror=function(){a.update_css_loader()}}}),document.head.appendChild(t)}update_css_loader(){document.getElementsByTagName("html")[0].setAttribute("data-css-loaded",parseInt(document.getElementsByTagName("html")[0].getAttribute("data-css-loaded"))+1),document.getElementsByTagName("html")[0].getAttribute("data-css")==document.getElementsByTagName("html")[0].getAttribute("data-css-loaded")&&document.getElementsByTagName("html")[0].classList.add("css-preloaded")}hold_event_listeners(){let e={};function t(t,s){!function(t){function s(s){return e[t].eventsToRewrite.indexOf(s)>=0?"w3-"+s:s}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=s(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=s(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(s)}function s(e,t){let s=e[t];Object.defineProperty(e,t,{get:()=>s||function(){},set(a){e["w3"+t]=s=a}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),s(document,"onreadystatechange"),s(window,"onload"),s(window,"onpageshow")}hold_jquery(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(s){if(s&&s.fn&&!e.allJQueries.includes(s)){s.fn.ready=s.fn.init.prototype.ready=function(t){if(void 0!==t)return e.scripts_load_fired?e.domReadyFired?t.bind(document)(s):document.addEventListener("w3-DOMContentLoaded",()=>t.bind(document)(s)):t.bind(document)(s),s(document)};let a=s.fn.on;s.fn.on=s.fn.init.prototype.on=function(){if("ready"==arguments[0]){if(this[0]!==document)return a.apply(this,arguments),this;"string"!=typeof arguments[1]&&arguments[1].bind(document)(s)}if(this[0]===window){function e(e){return e.split(" ").map(e=>"load"===e||0===e.indexOf("load.")?"w3-jquery-load":e).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(t=>{Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]})}return a.apply(this,arguments),this},e.allJQueries.push(s)}t=s}})}async execute_domcontentloaded(){this.domReadyFired=!0,await this.repaint_frame(),document.dispatchEvent(new Event("w3-DOMContentLoaded")),await this.repaint_frame(),window.dispatchEvent(new Event("w3-DOMContentLoaded")),await this.repaint_frame(),document.dispatchEvent(new Event("w3-readystatechange")),await this.repaint_frame(),document.w3onreadystatechange&&document.w3onreadystatechange()}async execute_window_load(){await this.repaint_frame(),setTimeout(function(){window.dispatchEvent(new Event("w3-load"))},100),await this.repaint_frame(),window.w3onload&&window.w3onload(),await this.repaint_frame(),this.allJQueries.forEach(e=>e(window).trigger("w3-jquery-load")),window.dispatchEvent(new Event("w3-pageshow")),await this.repaint_frame(),window.w3onpageshow&&window.w3onpageshow()}exe_document_write(){let e=new Map;document.write=document.writeln=function(t){let s=document.currentScript,a=document.createRange(),i=s.parentElement,r=e.get(s);void 0===r&&(r=s.nextSibling,e.set(s,r));let n=document.createDocumentFragment();a.setStart(n,0),n.appendChild(a.createContextualFragment(t)),i.insertBefore(n,r)}}async repaint_frame(){return new Promise(e=>requestAnimationFrame(e))}static execute(){let e=new w3_loadscripts(["keydown","mousemove","touchmove","touchstart","touchend","wheel"]);e.load_fonts(e.w3_fonts),e.user_events_add(e),e.excluded_js||e.hold_jquery(e),e.w3_lazy_load_js||(e.scripts_load_fire=1,e.triggerListener_on_load());let t=setInterval(function e(s){null!=document.body&&(document.body.getBoundingClientRect().top<-30&&s.triggerListener(),clearInterval(t))},500,e)}}setTimeout(function(){w3_loadscripts.execute()},1e3);</script>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="//apis.google.com">
+  <link rel="preconnect" href="//adservice.google.com">
+  <link rel="preconnect" href="//ad.doubleclick.net">
+  <link rel="preconnect" href="//cm.g.doubleclick.net">
+  <link rel="preconnect" href="//securepubads.g.doubleclick.net">
+  <link rel="preconnect" href="//googleads.g.doubleclick.net">
+  <link rel="preconnect" href="//stats.g.doubleclick.net">
+  <link rel="preconnect" href="//tpc.googlesyndication.com">
+  <link rel="preconnect" href="//fonts.gstatic.com">
+  <link rel="preconnect" href="//pagead2.googlesyndication.com">
+  <link rel="preconnect" href="//ssl.google-analytics.com">
+  <link rel="preconnect" href="//www.googletagservices.com">
+  <link rel="preconnect" href="//fastlane.rubiconproject.com/">
+  <link rel="preconnect" href="//pixel.rubiconproject.com/">
+  <link rel="preconnect" href="//prg.smartadserver.com/">
+  <link rel="preconnect" href="//static.criteo.net/">
+  <link rel="preconnect" href="//gum.criteo.com/">
+  <link rel="preconnect" href="//bidder.criteo.com/">
+  <link rel="preconnect" href="//tracker.bt.uol.com.br">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="format-detection" content="telephone=no">
+  <title>Nova Orleans: 21 coisas que você precisa saber antes de chegar</title>
+  <meta property="fb:app_id" content="1713446588893348" />
+	<meta name="facebook-domain-verification" content="nxq509wfkxrrn4198g8iy7hc0gswh6" />
+
+  <!-- FAVICON -->
+  <link rel="shortcut icon" type="image/x-icon" href="https://www.viajali.com.br/wp-content/themes/ctt-viajali/images/favicon.png">
+  <!-- STYLESHEET -->
+  
+
+      
+    <link rel="stylesheet" data-css="1" href="https://www.viajali.com.br/wp-content/cache/w3-cache/all-css/f4906a7904ea097f0f8092100b09e7b8.css" />
+  
+  	
+	
+	<!-- Google tag (gtag.js) -->
+<script async="" type="lazyload_int" data-src="https://www.googletagmanager.com/gtag/js?id=G-LH8HHLTZNN" ></script>
+<script type="lazyload_int" >
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LH8HHLTZNN');
+	gtag('config', 'G-JPYB66VJH1');
+</script>
+
+	<script type="lazyload_int" id="script" >
+    var s = document.createElement("script")
+    s.src = "https://notix.io/ent/current/enot.min.js"
+    s.onload = function (sdk) {
+        sdk.startInstall({
+            appId: "10057010763e147e824927abd586a53",
+            loadSettings: true
+        })
+    }
+    document.head.append(s)
+</script>
+
+  <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v20.7 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="Nova Orleans, a Terra do Jazz possui uma diversidade de atividades e passeios para quem gosta de boa música, gastronomia e alegria." />
+	<link rel="canonical" href="https://www.viajali.com.br/nova-orleans-coisas-que-voce-precisa-saber-antes-de-chegar/" />
+	<meta property="og:locale" content="pt_BR" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Nova Orleans: 21 coisas que você precisa saber antes de chegar" />
+	<meta property="og:description" content="Nova Orleans, a Terra do Jazz possui uma diversidade de atividades e passeios para quem gosta de boa música, gastronomia e alegria." />
+	<meta property="og:url" content="https://www.viajali.com.br/nova-orleans-coisas-que-voce-precisa-saber-antes-de-chegar/" />
+	<meta property="og:site_name" content="Viajali" />
+	<meta property="article:publisher" content="https://www.facebook.com/Viajali-191050401259470/" />
+	<meta property="article:published_time" content="2017-04-07T18:55:22+00:00" />
+	<meta property="article:modified_time" content="2020-01-21T16:58:40+00:00" />
+	<meta property="og:image" content="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans.jpg" />
+	<meta property="og:image:width" content="730" />
+	<meta property="og:image:height" content="486" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Sheila Almendros" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@sheilaalmendros" />
+	<meta name="twitter:site" content="@viajali" />
+	<meta name="twitter:label1" content="Escrito por" />
+	<meta name="twitter:data1" content="Sheila Almendros" />
+	<meta name="twitter:label2" content="Est. tempo de leitura" />
+	<meta name="twitter:data2" content="6 minutos" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.viajali.com.br/nova-orleans-coisas-que-voce-precisa-saber-antes-de-chegar/","url":"https://www.viajali.com.br/nova-orleans-coisas-que-voce-precisa-saber-antes-de-chegar/","name":"Nova Orleans: 21 coisas que você precisa saber antes de chegar","isPartOf":{"@id":"https://www.viajali.com.br/#website"},"primaryImageOfPage":{"@id":"https://www.viajali.com.br/nova-orleans-coisas-que-voce-precisa-saber-antes-de-chegar/#primaryimage"},"image":{"@id":"https://www.viajali.com.br/nova-orleans-coisas-que-voce-precisa-saber-antes-de-chegar/#primaryimage"},"thumbnailUrl":"https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans.jpg","datePublished":"2017-04-07T18:55:22+00:00","dateModified":"2020-01-21T16:58:40+00:00","author":{"@id":"https://www.viajali.com.br/#/schema/person/129429b4d883cce6897a53744f67df65"},"description":"Nova Orleans, a Terra do Jazz possui uma diversidade de atividades e passeios para quem gosta de boa música, gastronomia e alegria.","breadcrumb":{"@id":"https://www.viajali.com.br/nova-orleans-coisas-que-voce-precisa-saber-antes-de-chegar/#breadcrumb"},"inLanguage":"pt-BR","potentialAction":[{"@type":"ReadAction","target":["https://www.viajali.com.br/nova-orleans-coisas-que-voce-precisa-saber-antes-de-chegar/"]}]},{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https://www.viajali.com.br/nova-orleans-coisas-que-voce-precisa-saber-antes-de-chegar/#primaryimage","url":"https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans.jpg","contentUrl":"https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans.jpg","width":730,"height":486,"caption":"iStock"},{"@type":"BreadcrumbList","@id":"https://www.viajali.com.br/nova-orleans-coisas-que-voce-precisa-saber-antes-de-chegar/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://www.viajali.com.br/"},{"@type":"ListItem","position":2,"name":"Nova Orleans: 21 coisas que você precisa saber antes de chegar"}]},{"@type":"WebSite","@id":"https://www.viajali.com.br/#website","url":"https://www.viajali.com.br/","name":"Viajali","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.viajali.com.br/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"pt-BR"},{"@type":"Person","@id":"https://www.viajali.com.br/#/schema/person/129429b4d883cce6897a53744f67df65","name":"Sheila Almendros","image":{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https://www.viajali.com.br/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/8dcfca7f8f87f63dc9cd782516e27e3b?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/8dcfca7f8f87f63dc9cd782516e27e3b?s=96&d=mm&r=g","caption":"Sheila Almendros"},"description":"Sou aquela jornalista e web writer que sonha em ganhar a vida escrevendo sobre todos os cantos do mundo, e preferencialmente conhecendo cada um deles.","sameAs":["http://www.phdemseilaoque.com","https://www.instagram.com/phdemseilaoque/","https://twitter.com/sheilaalmendros"],"url":"https://www.viajali.com.br/autor/sheila/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//cdn.affiliatable.io' />
+<script type="lazyload_ext" >
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.viajali.com.br\/wp-includes\/js\/wp-emoji-release.min.js"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener('w3-DOMContentLoaded',e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" data-css="1" href="https://www.viajali.com.br/wp-content/cache/w3-cache/all-css/27a6703571eae6702ba9b82bbf90f7ac.css" />
+<script type="lazyload_int" data-src="https://www.viajali.com.br/wp-content/cache/w3-cache/all-js/a02f3824e0a5de9c2b531b2dd15c0efc.js"></script>
+<script type="lazyload_int" data-src="https://www.viajali.com.br/wp-content/cache/w3-cache/all-js/e5318b848d91745633e86a32af223673.js"></script>
+<script type="lazyload_int" data-src="https://www.viajali.com.br/wp-content/cache/w3-cache/all-js/a26632a5bc76de21912a89e41aca650b.js"></script>
+<link rel="https://api.w.org/" href="https://www.viajali.com.br/wp-json/" /><link rel="alternate" type="application/json" href="https://www.viajali.com.br/wp-json/wp/v2/posts/13895" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.viajali.com.br/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.3.1" />
+<link rel='shortlink' href='https://www.viajali.com.br/?p=13895' />
+<link rel="alternate" type="application/json+oembed" href="https://www.viajali.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.viajali.com.br%2Fnova-orleans-coisas-que-voce-precisa-saber-antes-de-chegar%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.viajali.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.viajali.com.br%2Fnova-orleans-coisas-que-voce-precisa-saber-antes-de-chegar%2F&#038;format=xml" />
+<!-- Stream WordPress user activity plugin v3.9.3 -->
+  <script type="lazyload_ext" >
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-4872125-79', 'auto');
+    ga('create', 'UA-4872125-86', 'auto', 'Contteudo');
+	
+          ga('Contteudo.send', 'pageview', {
+      'dimension1':  'abr-2017'
+    });
+        ga('set', 'dimension1', 'Sheila Almendros');
+    ga('set', 'dimension2', 'Estados Unidos');
+    ga('set', 'dimension3', '2017');
+    ga('set', 'dimension4', '1001-1500');
+    ga('send', 'pageview');
+  </script>
+		<style type="text/css" id="wp-custom-css">
+			.botao {background:#1ab0ca; text-align:center; padding:10px 0; border-radius:5px; text-transform:uppercase}
+.botao a {color:#fff !important}
+
+.stories-carousel-wrapper{
+  padding: 5px 0 0 0 !important;
+}
+.container {background:none}
+.stories-link {
+    margin-top: -60px !important;
+    background: transparent !important;
+    position: relative !important;
+    display: inline-block !important;
+    position: absolute !important;
+    left: 36px !important;
+    right: 36px !important;
+    bottom: 16px !important;
+    text-align: left !important;
+}
+.stories-link a{
+    background: #1AB0CA !important;
+    box-shadow: 0 0 0 4px #1AB0CA !important;
+    display: inline !important;
+    color: #FFF !important;
+    margin: 0 0 -5px 0 !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    line-height: 36px !important;
+    padding: 0;
+}
+.quarters_left_in:hover .stories-link a{
+	color: #fff !important;
+}
+.stories-navigation {
+	top: -280px;
+  position: relative;
+  width: 100%;
+  left: 0;
+  display: none;
+}
+.stories-navigation>span {
+	transform: translateY(-50%);
+	top: 50%;
+	position: absolute;
+}
+.stories .banheiros_middle:after {width:92% !important}
+
+.stories-navigation .pager-left {
+	left: calc(0% + 15px);
+}
+.stories-navigation .pager-right {
+	right: calc(0% + 15px);
+}
+.stories-navigation .next, .stories-navigation .prev {
+	font-size: 28px;
+	color: #ccc;
+  background: rgba(0,0,0,.4);
+}
+.stories-navigation .next:hover, .stories-navigation .prev:hover {
+	font-size: 28px;
+	color: #ccc;
+  background: rgba(0,0,0,1);
+}
+.stories-navigation.next:hover a, .stories-navigation .prev:hover a {
+	color: #FFF;
+}
+@media(max-width: 769px){
+	.stories-link {
+    margin-top: -60px !important;
+    background: transparent !important;
+    position: relative !important;
+    display: inline-block !important;
+    position: absolute !important;
+    left: 36px !important;
+    right: 36px !important;
+    bottom: 32px !important;
+    text-align: left !important;
+	}
+}
+
+.novorelated {width:33.3%; margin:0 0 20px 0; padding:0 5px }
+#novasrelacionadas {width:100% !important; margin-left:0px; border-top:1px solid #e2e7f0; border-bottom: 1px solid #e2e7f0;
+margin:15px 0}
+#novasrelacionadas a {line-height:24px !important;  display:block; text-align:left; margin-top:10px; color: #355065; overflow: auto}
+#novasrelacionadas h3 {margin-bottom:0px; margin-top:10px}
+#novasrelacionadas img {border-radius:3px; margin-bottom:10px; border:3px solid #fff; height:134px}
+#novasrelacionadas a:hover img {border:3px solid #1AB0CA}
+
+@media (max-width: 599px) {
+
+.novorelated {width:100%; padding:0}
+	#novasrelacionadas img {width:120px; float:left; margin-right:10px; height:70px}	
+	#novasrelacionadas a {font-size:16px}
+	
+}
+
+
+.btn-book {    background: #1AB0CA;
+    color: #fff !important;
+    font-size: 14px !important;
+    text-transform: uppercase;
+    /* text-align: center; */
+    margin: 0 auto;
+    /* width: 300px; */
+    max-width: 400px;
+    display: block !important;}
+.btn-book i {margin-right:15px}
+#texto .wp-caption {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    display: inherit;
+}
+
+#texto .have-site .wp-caption-text {
+  left: 20px !important;
+	text-align: left;
+}
+.list {
+    overflow-x: hidden !important;
+}
+.fa-usd.muted{
+    color: #DDD;
+}		</style>
+		
+  <script async="" type="lazyload_int" data-src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" ></script>
+<script type="lazyload_int" >
+  window.googletag = window.googletag || {cmd: []};
+  var slot1;
+  googletag.cmd.push(function() {
+
+var mapping1 = googletag.sizeMapping().
+  addSize([640, 480], []).
+  addSize([1, 1], [320, 50]).
+  build();
+
+ var mapping2 = googletag.sizeMapping().
+  addSize([640, 480], [300, 600]).
+  addSize([1, 1], []).
+  build();
+
+    googletag.defineSlot('/1023048/viajali/viajali_300x250_1', [300, 250], 'div-gpt-ad-1684496867214-0').addService(googletag.pubads());
+    googletag.defineSlot('/1023048/viajali/viajali_300x250_2', [300, 250], 'div-gpt-ad-1684496906740-0').addService(googletag.pubads());
+    googletag.defineSlot('/1023048/viajali/viajali_300x250_3', [300, 250], 'div-gpt-ad-1684496942834-0').addService(googletag.pubads());
+    googletag.defineSlot('/1023048/viajali/viajali_300x600_1', [300, 600], 'div-gpt-ad-1684497036080-0').defineSizeMapping(mapping2).addService(googletag.pubads());
+    slot1 = googletag.defineSlot('/1023048/viajali/viajali_320x50_1', [320, 50], 'div-gpt-ad-1684497117917-0').defineSizeMapping(mapping1).addService(googletag.pubads());
+    googletag.pubads().disableInitialLoad();
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+<script type="lazyload_int" >
+
+//load the apstag.js library
+
+!function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+
+
+//initialize the apstag.js library on the page to allow bidding
+
+apstag.init({
+
+     pubID: '1c93b5b7-dc30-447c-a141-1bfd97cb43b7', //enter your pub ID here as shown above, it must within quotes
+
+     adServer: 'googletag'
+
+});
+
+apstag.fetchBids({
+
+     slots: [{
+
+         slotID: 'div-gpt-ad-1684496867214-0', //example: 'div-gpt-ad-1475185990716-0'
+
+         slotName: '/1023048/viajali/viajali_300x250_1', //example: '12345/leaderboard-1'
+
+         sizes: [[300,250]] //example: [[728,90]]
+
+
+     },
+
+     {
+
+         slotID: 'div-gpt-ad-1684496906740-0', //example: 'div-gpt-ad-1475185990716-0'
+
+         slotName: '/1023048/viajali/viajali_300x250_2', //example: '12345/leaderboard-1'
+
+         sizes: [[300,250]] //example: [[728,90]]
+
+
+     },
+
+     {
+
+         slotID: 'div-gpt-ad-1684496942834-0', //example: 'div-gpt-ad-1475185990716-0'
+
+         slotName: '/1023048/viajali/viajali_300x250_3', //example: '12345/leaderboard-1'
+
+         sizes: [[300,250]] //example: [[728,90]]
+
+
+     },
+
+     {
+
+         slotID: 'div-gpt-ad-1684497036080-0', //example: 'div-gpt-ad-1475185990716-0'
+
+         slotName: '/1023048/viajali/viajali_300x600_1', //example: '12345/leaderboard-1'
+
+         sizes: [[300,600]] //example: [[728,90]]
+
+
+
+     },
+
+     {
+
+         slotID: 'div-gpt-ad-1684497117917-0', //example: 'div-gpt-ad-1475185990716-0'
+
+         slotName: '/1023048/viajali/viajali_320x50_1', //example: '12345/leaderboard-1'
+
+         sizes: [[320,50]] //example: [[728,90]]
+
+     }],
+
+     timeout: 2e3
+
+}, function(bids) {
+
+     // set apstag targeting on googletag, then trigger the first GAM request in googletag's disableInitialLoad integration
+
+     googletag.cmd.push(function(){
+
+         apstag.setDisplayBids();
+
+         googletag.pubads().refresh();
+
+     });
+
+}); 
+
+</script>
+
+  <script async="" crossorigin="anonymous" type="lazyload_int" data-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4546623105289528" ></script>
+
+
+  <!-- SET: SCRIPTS -->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5shiv.min.js"></script>
+<script type="text/javascript" src="js/IE9.js"></script>
+<style>
+.main_content ul li.list2{width:48%;}
+</style>
+<![endif]-->
+	
+	<script type="lazyload_int" >
+    (function () {
+        window.universal_variable = window.universal_variable || {};
+        window.universal_variable.dfp = window.universal_variable.dfp || {};
+        window.uolads = window.uolads || [];
+    })();
+</script>
+<script type="lazyload_int" async="" data-src="//tm.jsuol.com.br/uoltm.js?id=taljro" ></script>
+
+
+<!-- Google Tag Manager -->
+<script type="lazyload_int" >(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KR7VSJ6');</script>
+<!-- End Google Tag Manager -->
+
+<style id="w3_bg_load">div:not(.w3_bg), section:not(.w3_bg), iframelazy:not(.w3_bg){background-image:none !important;}</style><style id="w3speedster-custom-css">@font-face { font-family:"FontAwesome"; src:url('data:application/octet-stream;base64,d09GMgABAAAAAAaUAAsAAAAADDAAAAZGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHFQGVgCDVgqIKIcuATYCJAMcCxAABCAFhzcHZhvgClFUb0pkX2HcwpMWRHZ6R85GnT2mPOVtRQ2yk4NcJBIaXaEC1gJgAiAevt+Pdu6z/9c0aRIDb7QlquZNWFuSNjqdoVIKoel0QlSf/zb1JyUVqIsgFXW290jrkEztZGpIVU67mV1N231ptPF9FbX0I9mUdpm9/fzEvZBYMBbhwWHRWO5WW+lzgm1P3C1K6Oev/4FQkAfxJ/yCPNTkbr/X1Fp7CcAD7v+/X+lvH/sgE6kyIhX3TW6+qd7ooIzjKxCV1rRnwZt8gXxd9hWbj1HNPKxc30Vg0D7hxEe3Dy9Fy3XJkWgFcSYHefW47tpSlOUMpUUQekdD9qxXM+9U8oty8St+/3xN3MQvSc2ci5za2TLF6gfxY1X852kTc64NFRmb68mKu6jvjhxXsEnBoHGbvGOEYb2kfMiS9r1wrwhK3F6z4wvDLjn6Dx5VU4QkEw3AMM9eKmx8yPpu1UAS9Bj6ALcC6BMUBB9DBYlPY8grQHcbjmKEOC5EOm16rmISqriLdJQyo+K8hSOXGqV5qzQLQo1U7SU1+kgxTLNAqN3CkKoEVkBEUgFxUsrTLMUxAkGxMn5QkHME9Z7+KP3EfCineZbl2T5nPffEaQwAloM8owtc0hFIEwjCCZDn8Erw2Q9p0SCkPOQZX+STj0IpWCiUZT1ehvM8P0gIAi/HOA4rqcBJI77IgTq7HWy8N7qHNfQ8zUbq6vPr8U2b8KvSPcynOMQFflmR8rCtgDpn5LYXi8Cm/z3F9iSL7gT1CZZdgDd+BWGImbQRERARJQ4TKijBLWKHhjoeJhAsKpDSNdnKwKp8vY5i6XBrkGsu8VOD08KyfJGbBHW06g5JhfJtOvz6rjTCVqeZtqObqkuveHOPCavemW+5DwpwX6lsAUVxoCgI+V+UD+IhCYl37Lod/n33/v7fMaZuvnt9ZjtYFVW/cyfrqYzXHV5dTSxo+GqPpbq/0tcrJRrs0GtU/aVOSorXaXUU6gUJxG4qiCPBveroaa+DFJ2XqHovlADiSN1YqtoBKaRu8d2rEFTeLS+/UwH0ktNEmkxTnB7CS+TvAE41Jt8dlJ+qeeJTc0hj6MTfe7W7lnWiizqVWhM7HPHj/RYzKz/8Lz0xih1XP2Dx6LySl9dkEVmbU7M1MywmMzya+LlxZkcGFHmFY541xp2qtR5npu6ff47kZ66GWeunr6iYmuXpi497epZzvV4jqOra6LLiWDXTgRTxvs/cVbfgtMbCFpuBxXPjtaIjG8xLIVOXfS362853QTF2aeIolzR5Tq5Lcu+O/ItPVMR25PbtEVlJVaNuSaBte214oQqI7t9QVGz3jvR/hA9S6v1w7CI5sxlqvn27GTJnmsgPNZuXrrx5hryI47GgUJH+sTRdWVOZnIzVY7a2930jk/0ov6Cs731bu5zGnKZGdRhNR4PnbnDWyOOKgv/38/M3MdjOFX73a9k8/Ldp0eLXvvd2wds3vDWO/dfu0wt7CUn/K9diiHCI4Pi7fP8fg9rXRE/S+8a+MZ3bjWA866ALNAOEJs3x9l1yVcKQ3VyYdB4KsyGPyMI+Jiv7hGzsM+GgDVf2HzJlQRZlAO98ZsIwG//CZDS+C7PZVCAL20ZWdoxs7I5w0IX0dMQhy+mrBrcJJaMJbylsq4j90mQjjI+OeUecmRgDyXCkIjgxGMYnYWxmfoJ5Jkfbak03NyxFpzDoaPufRMUpubbDsCkThB0ZmSmrOD0Ma0EAzStrINRICZrDzQ2z/HCthlqFeI52NZBUa53lXSNpd+6JY8OjSPEORkgLXlUn9jizBRapcPVLYBAoiEl5CE2HHeZ4fmTEwu5p2FChaDZoG0ESQyZQLgXiKRGOVyc2BLx58gpxAJ8ULHv4QBqtAGQwynnefFkaOECwpAtDvjz7gv+MviXRc4Cra1jD6kosRVw2Z5SCWFIyb8UEUsSkm8awuks4SuD2hh6gSxWRhqinzzQ8umk/vjW1NqyEUt1zyFYV8IOh9k4gcM0FNHfvi/HizpNG7kBEbfeUy3ZI2MblPGYBH4je6vwB92dVMrTiPg+eMgzvFbPYsHq4/VVTfcMqRhlFlvNiXaTIUaJGiy56/Y408E0pv+JGmqVNMsy/TI1Pl7jmMiMVNUoynMYgRqr28jx7hAAAAA==') format('woff2'); font-weight:normal; font-display:swap; font-style:normal; } .fa-facebook:before {   content:"\f09a"; } .fa-instagram:before {   content:"\f16d"; } .fa-pinterest-p:before {   content:"\f231"; } .fa-twitter:before {   content:"\f099"; } .search button:after {   content:'\f002';   font-family:'FontAwesome';   font-size:20px;   color:#fff; } .fa-arrow-right:before {   content:"\f061"; } .fa {   display:inline-block;   font:normal normal normal 14px/1 FontAwesome;   font-size:inherit;   text-rendering:auto;   -webkit-font-smoothing:antialiased;   -moz-osx-font-smoothing:grayscale; font-style:normal; } @media(max-width:767px){ .search button:after {   color:#9e9e9e;   } .home section.main_content {   padding:30px 0 35px 0 } body {overflow-x:hidden} } .wp-caption-text a {  color:#fff !important;  font-size:11px !important }</style></head>
+<body data-rsssl=1>
+
+
+
+<div style="position: fixed; bottom: 0; left: 0; height: auto; background: #fff; width: 100%; z-index: 9999; padding: 3px 0;" class="visible-xs text-center">
+			<!-- /1023048/viajali/viajali_320x50_1 -->
+<div id='div-gpt-ad-1684497117917-0' style='min-width: 320px; min-height: 50px;'>
+  <script type="lazyload_int" >
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1684497117917-0'); setInterval(function(){googletag.pubads().refresh([slot1]);}, 30000); });
+  </script>
+</div>
+		</div>
+
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KR7VSJ6"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+	
+	
+<script data-wid="auto" type="lazyload_int" data-src="https://ads.viralize.tv/display/?zid=AAEn2iG_Bt_nZPrQ" ></script>
+
+    <span class="layer"></span>
+
+    <div class="wrapper">
+
+      <div class="empty"></div>
+      <header>
+        <div class="header_top">
+          <div class="container">
+            <div class="row">
+              <div class="social col-sm-4 col-xs-2">
+                <ul>
+                  <li><a href="https://www.facebook.com/viajalioficial/" target="_blank" class="f"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.instagram.com/viajali/" target="_blank" class="i"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                  <li><a href="https://br.pinterest.com/viajali/" target="_blank" class="p"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                  <li><a href="https://twitter.com/viajali/" target="_blank" class="t"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                </ul>
+                <div class="clearfix"></div>
+                <button type="button" class="navbar-toggle collapsed">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="logo col-sm-4 col-xs-8">
+                                  <a href="https://www.viajali.com.br" title="Ir para home"><img style="aspect-ratio:135/53" src="https://www.viajali.com.br/wp-content/themes/ctt-viajali/images/viajali-logo.png" width="180" height="53" alt="Viajali" class="img-responsive"></a>                </div>
+                <div class="search col-sm-4 col-xs-2">
+                  <form role="search" method="get" action="https://www.viajali.com.br/">
+                    <input type="search" placeholder="" name="s" class="search_1">
+                    <button type="button"></button>
+                  </form>
+                </div>
+                <div class="clearfix"></div>
+                <div class="search2">
+                  <form role="search" method="get" action="https://www.viajali.com.br/">
+                    <input type="search" placeholder="BUSCAR" name="s" class="search_1">
+                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                  </form>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </header>
+        <nav class="navbar navbar-white">
+          <div class="navigation">
+
+           <div id="navbar" class="clearfix">
+            <ul class="nav navbar-nav">
+              <li class="mobo">
+                <a href="https://www.viajali.com.br" class="home"><i class="fa fa-home"></i></a>
+                <a href="#" class="close"><i class="fa fa-close"></i></a>
+                <i class="clearfix"></i>
+				</li><li><a href="https://www.viajali.com.br/bahia">Bahia</a></li><li><a href="https://www.viajali.com.br/ceara" class="btn btn-primary">Ceará</a></li>
+                <li><a href="https://www.viajali.com.br/minas-gerais" class="btn btn-primary">Minas Gerais</a></li>
+                <li><a href="https://www.viajali.com.br/rio-de-janeiro" class="btn btn-primary">Rio de Janeiro</a></li>
+				<li><a href="https://www.viajali.com.br/rio-grande-do-sul" class="btn btn-primary">Rio Grande do Sul</a></li>
+				<li><a href="https://www.viajali.com.br/santa-catarina" class="btn btn-primary">Santa Catarina</a></li>
+				<li><a href="https://www.viajali.com.br/sao-paulo" class="btn btn-primary">São Paulo</a></li>
+
+
+                <li class="sal hidden-xs"><a href="#">&bull;&nbsp;&bull;&nbsp;&bull;</a>
+                  <span class="dropdown-toggle" data-toggle="dropdown"></span>
+                  <ul class="dropdown-menu">
+					  <li><a href="https://www.viajali.com.br/alagoas">Alagoas</a></li>
+					  <li><a href="https://www.viajali.com.br/america-do-sul">América do Sul</a></li>
+                    <li><a href="https://www.viajali.com.br/dicas">Dicas e Truques</a></li><li><a href="https://www.viajali.com.br/europa">Europa</a></li><li><a href="https://www.viajali.com.br/estados-unidos">Estados Unidos</a></li>
+					  <li><a href="https://www.viajali.com.br/goias">Goiás</a></li>
+					  <li><a href="https://www.viajali.com.br/mato-grosso">Mato Grosso</a></li>
+					  <li><a href="https://www.viajali.com.br/mato-grosso-do-sul">Mato Grosso do Sul</a></li>
+					  <li><a href="https://www.viajali.com.br/espirito-santo">Espírito Santo</a></li>
+					  <li><a href="https://www.viajali.com.br/sergipe">Sergipe</a></li>
+					  <li><a href="https://www.viajali.com.br/para">Pará</a></li>
+					  <li><a href="https://www.viajali.com.br/parana">Paraná</a></li>
+					  <li><a href="https://www.viajali.com.br/paraiba">Paraíba</a></li>
+					  <li><a href="https://www.viajali.com.br/pernambuco">Pernambuco</a></li>
+					  <li><a href="https://www.viajali.com.br/piaui">Piauí</a></li>
+					  <li><a href="https://www.viajali.com.br/rio-grande-do-norte">Rio Grande do Norte</a></li>
+					  <li><a href="https://www.viajali.com.br/tocantins">Tocantins</a></li>
+	
+                  </ul>
+		
+                </li>
+              </ul>
+              <div class="clearfix"></div>
+
+
+              <div class="menu_social"></div>
+
+            </div>
+          </div>
+
+        </nav>
+	<div class="scroll">
+		<div class="scroll_left">
+			<div class="para">
+				<a href="#topo">Nova Orleans: 21 coisas que você precisa saber antes de chegar</a>
+			</div>
+		</div>
+		<div class="social hidden-sm">
+			<ul>
+				<li>
+					<a href="https://www.facebook.com/sharer/sharer.php?u=https://www.viajali.com.br/nova-orleans-coisas-que-voce-precisa-saber-antes-de-chegar/" class="f active popup"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				</li>
+				<li>
+					<a href="https://twitter.com/home?status=Nova Orleans: 21 coisas que você precisa saber antes de chegar: https://www.viajali.com.br/?p=13895" class="t active popup"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				</li>
+				<li>
+					<a href="https://pinterest.com/pin/create/button/?url=https://www.viajali.com.br/nova-orleans-coisas-que-voce-precisa-saber-antes-de-chegar/&media=https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans.jpg&description=Nova Orleans: 21 coisas que você precisa saber antes de chegar" class="p active popup" data-pin-do="none"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+				</li>
+			</ul>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+		<div id="progress-bar"></div>
+	</div>
+	<div class="adol" id="topo">
+	  <div class="container">
+		<div class="row">
+		  <div class="adol_cnt">
+			<div class="adol_in adol_in_1 col-md-9">
+			 <div class="adol_head">
+									<p><a href="https://www.viajali.com.br/estados-unidos" title="Estados Unidos">Estados Unidos</a></p>
+									<!--<span><i class="fa fa-clock-o" aria-hidden="true"></i>17/01/2017</span>-->
+					<div class="clearfix"></div>
+					</div>
+					<h1>
+						Nova Orleans: 21 coisas que você precisa saber antes de chegar											</h1>
+															<div class="escri hidden-xs">
+							<div class="escri_lft">
+								<div class="escri_lft_lft">
+									<img style="aspect-ratio:100/100" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-square.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/avatar-2-100x100.jpg" width="40" height="50" class="img-circle">
+							  	</div>
+							  	<div class="escri_lft_rgt">
+									<span>Escrito por</span> 
+									<a href="https://www.viajali.com.br/autor/sheila" rel="author">Sheila Almendros</a>
+															
+								</div>
+							</div>
+										<div class="clearfix"></div>
+					</div><!-- .escri -->
+						
+				<!-- Container do conteúdo geral -->	   
+				<div id="texto">
+					<div id="autor-mobile" class="visible-xs">
+						<p>
+							<span class="autor">
+								Por <a href="https://www.viajali.com.br/autor/sheila" rel="author">Sheila Almendros</a>								</span>
+													</p>
+					 </div>
+
+					<p>Nova Orleans é o destino ideal para quem procura algo diferente das grandes cidades americanas. Este é um destino com uma enorme mistura de culturas, com raízes arquitetônicas vindas diretamente da França, e a forte influência caribenha, africana e espanhola tanto na música como na gastronomia. Conheça mais sobre essa cidade cheia de encantos que resistiu fortemente a um dos furacões mais devastadores da América.</p><div align="center" class="adpost"><p>Publicidade</p>
+          <!-- /1023048/viajali/viajali_300x250_1 -->
+<div id='div-gpt-ad-1684496867214-0' style='min-width: 300px; min-height: 250px;'>
+  <script type="lazyload_int" >
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1684496867214-0'); });
+  </script>
+</div>
+          </div>
+<h2>1. Você atrasará o seu relógio em 4 horas quando chegar lá</h2>
+<div id="attachment_13915" style="width: 740px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-13915" decoding="async" fetchpriority="high" class="size-full wp-image-13915 img-responsive" style="aspect-ratio:730/487" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-1-1.jpg" alt="" width="730" height="487" data-srcset="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-1-1.jpg 730w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-1-1-500x334.jpg 500w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-1-1-595xh.jpg 595w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-1-1-150x100.jpg 150w" sizes="(max-width: 730px) 100vw, 730px" /><p id="caption-attachment-13915" class="wp-caption-text">iStock</p></div>
+<p>Nova Orleans fica em Lousiana, ao sul dos Estados Unidos.</p>
+<h2>2. É lá que rola uma das festas mais tradicionais do mundo</h2>
+<div id="attachment_13916" style="width: 740px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-13916" decoding="async" class="size-full wp-image-13916 img-responsive" style="aspect-ratio:730/487" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-2-1.jpg" alt="" width="730" height="487" data-srcset="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-2-1.jpg 730w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-2-1-500x334.jpg 500w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-2-1-595xh.jpg 595w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-2-1-150x100.jpg 150w" sizes="(max-width: 730px) 100vw, 730px" /><p id="caption-attachment-13916" class="wp-caption-text">iStock</p></div>
+<p>Já ouviu falar do Mardi Gras? A terça-feira gorda deles é festejada no mesmo dia que o nosso carnaval, e representa bem a alegria do povo de Nova Orleans, pois todos saem as ruas fantasiados, seguindo pelos bairros dançando ao som das bandinhas com instrumento de sopro. Podemos dizer que é uma mistura de nossos bloquinhos com as festas promovidas em Salvador (mas sem trio elétrico).</p>
+<h2>3. Você não pode deixar de conhecer a Bourbon Street</h2>
+<div id="attachment_13917" style="width: 740px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-13917" decoding="async" class="size-full wp-image-13917 img-responsive" style="aspect-ratio:730/480" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-3-1.jpg" alt="" width="730" height="480" data-srcset="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-3-1.jpg 730w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-3-1-500x329.jpg 500w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-3-1-595xh.jpg 595w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-3-1-150x99.jpg 150w" sizes="(max-width: 730px) 100vw, 730px" /><p id="caption-attachment-13917" class="wp-caption-text">iStock</p></div>
+<p>Se você gosta de boa música, esta rua é a sua parada obrigatória, pois é lotada de clubes que promovem o bom e velho tradicional jazz. Você também encontra os melhores restaurantes e hotéis no local.</p>
+<h2>4. Nem o pitoresco French Quarter</h2>
+<div id="attachment_13918" style="width: 740px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-13918" decoding="async" class="size-full wp-image-13918 img-responsive" style="aspect-ratio:730/487" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-4-1.jpg" alt="" width="730" height="487" data-srcset="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-4-1.jpg 730w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-4-1-500x334.jpg 500w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-4-1-595xh.jpg 595w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-4-1-150x100.jpg 150w" sizes="(max-width: 730px) 100vw, 730px" /><p id="caption-attachment-13918" class="wp-caption-text">iStock</p></div>
+<p>O bairro central da cidade é um charme só, com suas varandinhas de metal forjado, vestígios da colonização francesa e espanhola do local e vida noturna agitada.</p>
+<h2>5. Porque é neste bairro que a magia do jazz acontece</h2>
+<div id="attachment_13896" style="width: 740px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-13896" decoding="async" class="size-full wp-image-13896 img-responsive" style="aspect-ratio:730/408" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-1.jpg" alt="" width="730" height="408" data-srcset="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-1.jpg 730w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-1-500x279.jpg 500w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-1-286x160.jpg 286w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-1-595xh.jpg 595w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-1-150x84.jpg 150w" sizes="(max-width: 730px) 100vw, 730px" /><p id="caption-attachment-13896" class="wp-caption-text"><a href="https://www.borrowedandblue.com/new-orleans/wedding-blog/spotlight-on-panorama-jazz-band-in-new-orleans">Borrowed &amp; Blue</a></p></div>
+<p>Não só a lendária Bourbon Street como todo o bairro French Quarter é repleto de casas de shows para quem busca o jazz, a dança e principalmente a diversão e uns bons drinks.</p>
+<h2>6. Se quiser conhecer os pântanos, lagunas e lagos, tire um dia só para isso</h2>
+<div id="attachment_13919" style="width: 740px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-13919" decoding="async" class="size-full wp-image-13919 img-responsive" style="aspect-ratio:730/489" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-6.jpg" alt="" width="730" height="489" data-srcset="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-6.jpg 730w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-6-500x335.jpg 500w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-6-595xh.jpg 595w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-6-150x100.jpg 150w" sizes="(max-width: 730px) 100vw, 730px" /><p id="caption-attachment-13919" class="wp-caption-text">iStock</p></div>
+<p>Para quem gosta de se aventurar em uma atividade atípica, não deixe de visitar o Parque Nacional Jean Lafitte e tentar a sorte de avistar alguns jacarés.</p>
+<h2>7. A comida regional é MA-RA-VI-LHO-SA</h2>
+<div id="attachment_13920" style="width: 740px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-13920" decoding="async" class="size-full wp-image-13920 img-responsive" style="aspect-ratio:730/547" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-7.jpg" alt="" width="730" height="547" data-srcset="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-7.jpg 730w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-7-500x375.jpg 500w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-7-595xh.jpg 595w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-7-150x112.jpg 150w" sizes="(max-width: 730px) 100vw, 730px" /><p id="caption-attachment-13920" class="wp-caption-text">iStock</p></div>
+<p>A gastronomia creole, com forte influência das cozinhas espanhola, francesa e caribenha, é recheada de pratos a base de ostras, lagostins e camarão. Uma delícia!</p>
+<h2>8. Não deixe de experimentar o po-boys</h2>
+<div id="attachment_13897" style="width: 740px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-13897" decoding="async" class="size-full wp-image-13897 img-responsive" style="aspect-ratio:730/411" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-2.jpg" alt="" width="730" height="411" data-srcset="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-2.jpg 730w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-2-500x282.jpg 500w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-2-286x160.jpg 286w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-2-595xh.jpg 595w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-2-150x84.jpg 150w" sizes="(max-width: 730px) 100vw, 730px" /><p id="caption-attachment-13897" class="wp-caption-text"><a href="https://www.youtube.com/watch?v=NXJ6ZChnRfM">BBQGuys</a></p></div>
+<p>Esses apetitosos lanches de camarão estão para Nova Orleans como o pão de queijo está para Minas Gerais.</p><div align="center" class="adpost"><p>Publicidade</p>
+            <!-- /1023048/viajali/viajali_300x250_2 -->
+<div id='div-gpt-ad-1684496906740-0' style='min-width: 300px; min-height: 250px;'>
+  <script type="lazyload_int" >
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1684496906740-0'); });
+  </script>
+</div>
+            </div>
+<h2>9. O <a href="http://neworleanscitypark.com/" target="_blank" rel="noopener noreferrer">City Park</a> é parada obrigatória</h2>
+<div id="attachment_13899" style="width: 740px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-13899" decoding="async" class="size-full wp-image-13899 img-responsive" style="aspect-ratio:730/548" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-3.jpg" alt="" width="730" height="548" data-srcset="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-3.jpg 730w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-3-500x375.jpg 500w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-3-595xh.jpg 595w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-3-150x113.jpg 150w" sizes="(max-width: 730px) 100vw, 730px" /><p id="caption-attachment-13899" class="wp-caption-text"><a href="http://www.nolaweekend.com/new-orleans-city-park-summertime-activities-deals/" rel="nofollow">Nola Weekend</a></p></div>
+<p>Outro ponto turístico adorável para passar uma tarde inteira. A Ride Around Inside Carousel Gardens Amusement Park é uma das atrações dentro do City Park que você não pode perder.</p>
+<h2>10. A cidade é carregada de história</h2>
+<div id="attachment_13921" style="width: 740px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-13921" decoding="async" class="size-full wp-image-13921 img-responsive" style="aspect-ratio:730/451" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-10.jpg" alt="" width="730" height="451" data-srcset="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-10.jpg 730w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-10-500x309.jpg 500w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-10-595xh.jpg 595w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-10-150x93.jpg 150w" sizes="(max-width: 730px) 100vw, 730px" /><p id="caption-attachment-13921" class="wp-caption-text">iStock</p></div>
+<p>Nova Orleans é conhecida por sua miscigenação, e isso deve-se a sua grande mistura de povos na era da colonização. A cultura européia está marcada em suas artes decorativas em sacadas, portões e janelas, também com o próprio Mardi Gras (de origem francesa), e os descendentes de africanos, alemães, italianos e irlandeses que povoaram a cidade são os verdadeiros responsáveis por levar toda a alegria que hoje é marca registrada de seus moradores.</p>
+<h2>11. Você poderá passear pelo rio Mississippi de barco a vapor</h2>
+<div id="attachment_13922" style="width: 740px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-13922" decoding="async" class="size-full wp-image-13922 img-responsive" style="aspect-ratio:730/463" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-11.jpg" alt="" width="730" height="463" data-srcset="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-11.jpg 730w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-11-500x317.jpg 500w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-11-595xh.jpg 595w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-11-150x95.jpg 150w" sizes="(max-width: 730px) 100vw, 730px" /><p id="caption-attachment-13922" class="wp-caption-text">iStock</p></div>
+<p>Os populares catamarãs oferecem refeições e música ao vivo seja o passeio feito de dia ou de noite.</p>
+<h2>12. Os turistas podem usar e abusar do streetcar</h2>
+<div id="attachment_13923" style="width: 740px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-13923" decoding="async" class="size-full wp-image-13923 img-responsive" style="aspect-ratio:730/487" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-12.jpg" alt="" width="730" height="487" data-srcset="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-12.jpg 730w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-12-500x334.jpg 500w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-12-595xh.jpg 595w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-12-150x100.jpg 150w" sizes="(max-width: 730px) 100vw, 730px" /><p id="caption-attachment-13923" class="wp-caption-text">iStock</p></div>
+<p>Quem se hospeda na região central da cidade consegue fazer tudo a pé ou de táxi, mas se quiser desbravar outros bairros mais distantes de Nova Orleans sem perder nada, invista nos bondinhos. Serão os US$ 1,25 mais bem gastos da sua vida.</p>
+<h2>13. A cidade é envolta de histórias místicas</h2>
+<div id="attachment_13924" style="width: 740px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-13924" decoding="async" class="size-full wp-image-13924 img-responsive" style="aspect-ratio:730/548" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-13.jpg" alt="" width="730" height="548" data-srcset="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-13.jpg 730w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-13-500x375.jpg 500w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-13-595xh.jpg 595w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-13-150x113.jpg 150w" sizes="(max-width: 730px) 100vw, 730px" /><p id="caption-attachment-13924" class="wp-caption-text">iStock</p></div>
+<p>Há diversas histórias de fantasmas que assombram alguns locais da cidade, e uma delas foi até contada na terceira temporada da série American Horror Story. Para quem ficou curioso, há uma tour fantasma que leva o turista em alguns cemitérios e estes citados pontos assombrados.</p>
+<h2>14. O verão de Nova Orleans é intenso</h2>
+<div id="attachment_13925" style="width: 740px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-13925" decoding="async" class="size-full wp-image-13925 img-responsive" style="aspect-ratio:730/487" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-14.jpg" alt="" width="730" height="487" data-srcset="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-14.jpg 730w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-14-500x334.jpg 500w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-14-595xh.jpg 595w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-14-150x100.jpg 150w" sizes="(max-width: 730px) 100vw, 730px" /><p id="caption-attachment-13925" class="wp-caption-text">iStock</p></div>
+<p>Chega a bater a marca de 40° C e com bastante umidade, acredite! Melhor mesmo é ir de setembro a maio, quando os termômetros marcam temperaturas mais amenas, e mesmo que seja inverno, um casaquinho é suficiente para os passeios ao ar livre.</p>
+<h2>15. Há programação cultural na cidade durante todo o ano</h2>
+<div id="attachment_13926" style="width: 740px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-13926" decoding="async" class="size-full wp-image-13926 img-responsive" style="aspect-ratio:730/585" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-square.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-15.jpg" alt="" width="730" height="585" data-srcset="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-15.jpg 730w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-15-500x401.jpg 500w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-15-595xh.jpg 595w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-15-150x120.jpg 150w" sizes="(max-width: 730px) 100vw, 730px" /><p id="caption-attachment-13926" class="wp-caption-text">iStock</p></div>
+<p>Você pode curtir o Mardi Gras em fevereiro ou março, já emendar o Festival Literário Tennessee Williams de New Orleans. Em abril tem o Festival do French Quarter, e para brindar o início primavera, o Festival de Jazz e Cultura de New Orleans. Em maio começa a Experiência de Vinho e Cozinha, em junho o festival “Tales of the Cocktail”, agosto a tradicional homenagem a Louis Armstrong com o “Satchmo Summerfest” e em outubro rola o Festival de Blues e Churrasco de Crescent City.</p>
+<h2>16. Você leva 4 dias para conhecer toda a cidade com calma</h2>
+<div id="attachment_13927" style="width: 740px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-13927" decoding="async" class="size-full wp-image-13927 img-responsive" style="aspect-ratio:730/487" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-16.jpg" alt="" width="730" height="487" data-srcset="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-16.jpg 730w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-16-500x334.jpg 500w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-16-595xh.jpg 595w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-16-150x100.jpg 150w" sizes="(max-width: 730px) 100vw, 730px" /><p id="caption-attachment-13927" class="wp-caption-text">iStock</p></div>
+<p>São dois dias para você ter uma visão geral da cidade: os principais pontos turísticos e alguns restaurantes e bares famosos. Se quiser emendar a visita aos jacarés (no inverno eles costumam hibernar, fica a dica), inclua mais um dia. O quarto dia seria para desbravar lugares menos populares, mas tão legais quanto.</p>
+<h2>17. E pode ficar mais tempo para curtir o que gostou mais</h2>
+<div id="attachment_13928" style="width: 740px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-13928" decoding="async" class="size-full wp-image-13928 img-responsive" style="aspect-ratio:730/487" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-17.jpg" alt="" width="730" height="487" data-srcset="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-17.jpg 730w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-17-500x334.jpg 500w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-17-595xh.jpg 595w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-17-150x100.jpg 150w" sizes="(max-width: 730px) 100vw, 730px" /><p id="caption-attachment-13928" class="wp-caption-text">iStock</p></div>
+<p>Por que ir em poucos restaurantes e clubes se você pode aproveitar ao máximo, com a infinidade de opções que há na cidade?</p><div align="center" class="adpost"><p>Publicidade</p>
+             <!-- /1023048/viajali/viajali_300x250_3 -->
+             <div id='div-gpt-ad-1684496942834-0' style='min-width: 300px; min-height: 250px;'>
+               <script type="lazyload_int" >
+                 googletag.cmd.push(function() { googletag.display('div-gpt-ad-1684496942834-0'); });
+               </script>
+             </div>
+            </div>
+<h2>18. Quem gosta de comida e artesanato, não pode deixar de conhecer a French Market</h2>
+<div id="attachment_13929" style="width: 740px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-13929" decoding="async" class="size-full wp-image-13929 img-responsive" style="aspect-ratio:730/486" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-18.jpg" alt="" width="730" height="486" data-srcset="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-18.jpg 730w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-18-500x333.jpg 500w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-18-595xh.jpg 595w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-18-150x100.jpg 150w" sizes="(max-width: 730px) 100vw, 730px" /><p id="caption-attachment-13929" class="wp-caption-text">iStock</p></div>
+<p>Dá pra reservar uma tarde inteira para aproveitar cada pedacinho dela. Sua tarde será uma delícia!</p>
+<h2>19. &#8230; nem o Food and Beverage Museum</h2>
+<div id="attachment_13900" style="width: 740px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-13900" decoding="async" class="size-full wp-image-13900 img-responsive" style="aspect-ratio:730/487" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-4.jpg" alt="" width="730" height="487" data-srcset="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-4.jpg 730w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-4-500x334.jpg 500w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-4-595xh.jpg 595w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-4-150x100.jpg 150w" sizes="(max-width: 730px) 100vw, 730px" /><p id="caption-attachment-13900" class="wp-caption-text"><a href="https://commons.wikimedia.org/wiki/File:Southern_Food_%26_Beverage_Museum.jpg">Wikimedia Commons</a></p></div>
+<p>Um museu destinado a comida. Olha que sonho!</p>
+<h2>20. Principalmente o delicioso Café du Monde</h2>
+<div id="attachment_13930" style="width: 740px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-13930" decoding="async" class="size-full wp-image-13930 img-responsive" style="aspect-ratio:730/483" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-20.jpg" alt="" width="730" height="483" data-srcset="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-20.jpg 730w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-20-500x331.jpg 500w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-20-595xh.jpg 595w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-20-150x99.jpg 150w" sizes="(max-width: 730px) 100vw, 730px" /><p id="caption-attachment-13930" class="wp-caption-text">iStock</p></div>
+<p>Ele fica aberto dia e noite e serve os beignets mais elogiados de Nova Orleans.</p>
+<h2>21. Nova Orleans também tem outlet</h2>
+<div id="attachment_13901" style="width: 740px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-13901" decoding="async" class="size-full wp-image-13901 img-responsive" style="aspect-ratio:730/411" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-5.jpg" alt="" width="730" height="411" data-srcset="https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-5.jpg 730w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-5-500x282.jpg 500w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-5-286x160.jpg 286w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-5-595xh.jpg 595w, https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans-5-150x84.jpg 150w" sizes="(max-width: 730px) 100vw, 730px" /><p id="caption-attachment-13901" class="wp-caption-text"><a href="http://southernretail.blogspot.com.br/2015/04/new-orleans-riverwalk-redevelopment.html">Southern Retail</a></p></div>
+<p>&#8230; e ele se chama Riverwalk Shopping Center. Você pode garimpar algumas lojas e de quebra curtir a bela vista para o Rio Mississippi.</p>
+<p>Já deu para reparar que a sua experiência na Terra do Jazz pode ser inesquecível!</p>
+				</div> <!--#texto-->
+				<div class="social-bottom">
+					<div class="col-xs-3 col-md-3">
+						<a class="wp bt w active popup whatsapp-share" href="whatsapp://send?text=https://www.viajali.com.br/nova-orleans-coisas-que-voce-precisa-saber-antes-de-chegar/"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+					</div>
+					<div class="col-xs-3 col-md-3">
+					   <a class="wp bt w active popup pinterest-share" href="https://pinterest.com/pin/create/button/?url=https://www.viajali.com.br/nova-orleans-coisas-que-voce-precisa-saber-antes-de-chegar/&media=https://www.viajali.com.br/wp-content/uploads/2017/04/nova-orleans.jpg&description=Nova Orleans: 21 coisas que você precisa saber antes de chegar" data-pin-do="none"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<a class="fb bt f active popup facebook-share" href="https://www.facebook.com/sharer/sharer.php?u=https://www.viajali.com.br/nova-orleans-coisas-que-voce-precisa-saber-antes-de-chegar/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<a class="tw bt t active popup twitter-share" href="https://twitter.com/intent/tweet?text=https://www.viajali.com.br/nova-orleans-coisas-que-voce-precisa-saber-antes-de-chegar/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					</div>
+				</div>
+
+				
+					<div class="selecionadas-related">
+						<ul class="list-unstyled" id="veja">
+															
+									 <li>
+									  <a href="https://www.viajali.com.br/visto-americano/" title="Visto americano: descomplicando o processo passo a passo" class="related-below-content"><img width="286" height="160" style="aspect-ratio:286/160" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2023/01/visto-americano-00-286x160.png" class="" alt="Visto americano: descomplicando o processo passo a passo" data-pin-nopin="true"></a>
+									  <div class="selecionadas-chamada"><a href="https://www.viajali.com.br/visto-americano/" title="Visto americano: descomplicando o processo passo a passo" class="related-below-content">
+										Visto americano: descomplicando o processo passo a passo									  </a></div></li>
+							
+									 <li>
+									  <a href="https://www.viajali.com.br/daytona-beach/" title="7 motivos que tornam Daytona Beach a praia mais famosa do mundo" class="related-below-content"><img width="286" height="160" style="aspect-ratio:286/160" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2021/11/daytona-beach-00-286x160.png" class="" alt="7 motivos que tornam Daytona Beach a praia mais famosa do mundo" data-pin-nopin="true"></a>
+									  <div class="selecionadas-chamada"><a href="https://www.viajali.com.br/daytona-beach/" title="7 motivos que tornam Daytona Beach a praia mais famosa do mundo" class="related-below-content">
+										7 motivos que tornam Daytona Beach a praia mais famosa do mundo									  </a></div></li>
+							
+									 <li>
+									  <a href="https://www.viajali.com.br/fotos-de-nova-york/" title="50 fotos de Nova York para você ficar apaixonado pela Big Apple" class="related-below-content"><img width="286" height="160" style="aspect-ratio:286/160" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2020/03/fotos-de-nova-york-0-286x160.jpg" class="" alt="50 fotos de Nova York para você ficar apaixonado pela Big Apple" data-pin-nopin="true"></a>
+									  <div class="selecionadas-chamada"><a href="https://www.viajali.com.br/fotos-de-nova-york/" title="50 fotos de Nova York para você ficar apaixonado pela Big Apple" class="related-below-content">
+										50 fotos de Nova York para você ficar apaixonado pela Big Apple									  </a></div></li>
+							
+									 <li>
+									  <a href="https://www.viajali.com.br/o-que-fazer-em-miami/" title="O que fazer em Miami: 30 atrações que não podem faltar em seu roteiro" class="related-below-content"><img width="286" height="160" style="aspect-ratio:286/160" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2020/02/o-que-fazer-em-miami-31-286x160.jpg" class="" alt="O que fazer em Miami: 30 atrações que não podem faltar em seu roteiro" data-pin-nopin="true"></a>
+									  <div class="selecionadas-chamada"><a href="https://www.viajali.com.br/o-que-fazer-em-miami/" title="O que fazer em Miami: 30 atrações que não podem faltar em seu roteiro" class="related-below-content">
+										O que fazer em Miami: 30 atrações que não podem faltar em seu roteiro									  </a></div></li>
+													</ul>
+					</div>
+							</div>
+		</div>
+			<div class="adol_side_bar col-md-3">
+								<div class="adol_views">
+					<div class="quarters_left quarters_left1 col-md-12">
+						<ul>
+								
+											<li class="col-md-12">
+												<div class="quarters_left_in">
+													<a href="https://www.viajali.com.br/salt-lake-city/" title="Salt Lake City: conheça as principais atrações da cidade" class="sidebar-link">
+														<figure>
+															<img style="aspect-ratio:400/220" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2019/09/salt-lake-city-4-400x220.jpg" width="400" height="220" alt="Salt Lake City: conheça as principais atrações da cidade" class="img-responsive" data-pin-nopin="true">
+														</figure>
+													</a>
+													<div class="por_top">
+														<div class="heading">
+															<a href="https://www.viajali.com.br/salt-lake-city/" title="Salt Lake City: conheça as principais atrações da cidade" class="sidebar-link">Salt Lake City: conheça as principais atrações da cidade</a>
+														</div>
+													</div>
+													<div class="clearfix"></div>
+												</div>
+											</li>
+
+										
+											<li class="col-md-12">
+												<div class="quarters_left_in">
+													<a href="https://www.viajali.com.br/manhattan/" title="Manhattan: o destino mais cinematográfico dos Estados Unidos" class="sidebar-link">
+														<figure>
+															<img style="aspect-ratio:400/220" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2019/08/manhattan-04-400x220.jpg" width="400" height="220" alt="Manhattan: o destino mais cinematográfico dos Estados Unidos" class="img-responsive" data-pin-nopin="true">
+														</figure>
+													</a>
+													<div class="por_top">
+														<div class="heading">
+															<a href="https://www.viajali.com.br/manhattan/" title="Manhattan: o destino mais cinematográfico dos Estados Unidos" class="sidebar-link">Manhattan: o destino mais cinematográfico dos Estados Unidos</a>
+														</div>
+													</div>
+													<div class="clearfix"></div>
+												</div>
+											</li>
+
+										
+											<li class="col-md-12">
+												<div class="quarters_left_in">
+													<a href="https://www.viajali.com.br/key-west/" title="Key West: verão o ano inteiro no sul da Flórida" class="sidebar-link">
+														<figure>
+															<img style="aspect-ratio:400/220" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2019/07/key-west-0-400x220.jpg" width="400" height="220" alt="Key West: verão o ano inteiro no sul da Flórida" class="img-responsive" data-pin-nopin="true">
+														</figure>
+													</a>
+													<div class="por_top">
+														<div class="heading">
+															<a href="https://www.viajali.com.br/key-west/" title="Key West: verão o ano inteiro no sul da Flórida" class="sidebar-link">Key West: verão o ano inteiro no sul da Flórida</a>
+														</div>
+													</div>
+													<div class="clearfix"></div>
+												</div>
+											</li>
+
+										
+											<li class="col-md-12">
+												<div class="quarters_left_in">
+													<a href="https://www.viajali.com.br/boston/" title="Boston: o que fazer na clássica e divertida cidade americana" class="sidebar-link">
+														<figure>
+															<img style="aspect-ratio:400/220" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2018/06/boston-41-400x220.jpg" width="400" height="220" alt="Boston: o que fazer na clássica e divertida cidade americana" class="img-responsive" data-pin-nopin="true">
+														</figure>
+													</a>
+													<div class="por_top">
+														<div class="heading">
+															<a href="https://www.viajali.com.br/boston/" title="Boston: o que fazer na clássica e divertida cidade americana" class="sidebar-link">Boston: o que fazer na clássica e divertida cidade americana</a>
+														</div>
+													</div>
+													<div class="clearfix"></div>
+												</div>
+											</li>
+
+										
+											<li class="col-md-12">
+												<div class="quarters_left_in">
+													<a href="https://www.viajali.com.br/dicas-dirigir-estados-unidos/" title="5 dicas importantes que você precisa saber para dirigir nos EUA" class="sidebar-link">
+														<figure>
+															<img style="aspect-ratio:400/220" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2018/01/dicas-dirigir-estados-unidos-1-400x220.jpg" width="400" height="220" alt="5 dicas importantes que você precisa saber para dirigir nos EUA" class="img-responsive" data-pin-nopin="true">
+														</figure>
+													</a>
+													<div class="por_top">
+														<div class="heading">
+															<a href="https://www.viajali.com.br/dicas-dirigir-estados-unidos/" title="5 dicas importantes que você precisa saber para dirigir nos EUA" class="sidebar-link">5 dicas importantes que você precisa saber para dirigir nos EUA</a>
+														</div>
+													</div>
+													<div class="clearfix"></div>
+												</div>
+											</li>
+
+										
+											<li class="col-md-12">
+												<div class="quarters_left_in">
+													<a href="https://www.viajali.com.br/melhores-hamburgueres-dos-estados-unidos/" title="Os 5 melhores hambúrgueres dos Estados Unidos" class="sidebar-link">
+														<figure>
+															<img style="aspect-ratio:400/220" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-3x4.png" data-src="https://www.viajali.com.br/wp-content/uploads/2017/02/lugares-para-comer-nova-york-4-400x220.jpg" width="400" height="220" alt="Os 5 melhores hambúrgueres dos Estados Unidos" class="img-responsive" data-pin-nopin="true">
+														</figure>
+													</a>
+													<div class="por_top">
+														<div class="heading">
+															<a href="https://www.viajali.com.br/melhores-hamburgueres-dos-estados-unidos/" title="Os 5 melhores hambúrgueres dos Estados Unidos" class="sidebar-link">Os 5 melhores hambúrgueres dos Estados Unidos</a>
+														</div>
+													</div>
+													<div class="clearfix"></div>
+												</div>
+											</li>
+
+										'
+
+															</ul>
+							<div id="ultimas" class="adol_views adol_latest">
+								<div class="banheiros_middle">
+									<div class="banheiros_left">
+										<h4>ÚLTIMAS</h4>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+																											<div class="adol_views_cnt">
+										   <a href="https://www.viajali.com.br/feriados-de-novembro/" title="Feriados de novembro (2023): calendário completo e destinos incríveis">
+												<figure><img style="aspect-ratio:100/100" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-square.png" data-src="https://www.viajali.com.br/wp-content/uploads/2023/07/feriados-de-novembro-05-100x100.jpg" width="100" height="100" alt="Feriados de novembro (2023): calendário completo e destinos incríveis" class="img-responsive"></figure>
+												<p>Feriados de novembro (2023): calendário completo e destinos incríveis</p>
+												<div class="clearfix"></div>
+											</a>
+										</div>
+																		<div class="adol_views_cnt">
+										   <a href="https://www.viajali.com.br/calendario-2023/" title="Calendário 2023: os feriados mais esperados do ano">
+												<figure><img style="aspect-ratio:100/100" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-square.png" data-src="https://www.viajali.com.br/wp-content/uploads/2023/07/calendario-2023-1-100x100.jpg" width="100" height="100" alt="Calendário 2023: os feriados mais esperados do ano" class="img-responsive"></figure>
+												<p>Calendário 2023: os feriados mais esperados do ano</p>
+												<div class="clearfix"></div>
+											</a>
+										</div>
+																		<div class="adol_views_cnt">
+										   <a href="https://www.viajali.com.br/feriados-de-outubro/" title="Feriados de outubro (2023): passeios para descansar">
+												<figure><img style="aspect-ratio:100/100" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-square.png" data-src="https://www.viajali.com.br/wp-content/uploads/2023/07/feriados-de-outubro-06-100x100.jpg" width="100" height="100" alt="Feriados de outubro (2023): passeios para descansar" class="img-responsive"></figure>
+												<p>Feriados de outubro (2023): passeios para descansar</p>
+												<div class="clearfix"></div>
+											</a>
+										</div>
+																		<div class="adol_views_cnt">
+										   <a href="https://www.viajali.com.br/bares-em-niteroi/" title="25 bares em Niterói (RJ): conheça a boemia da Cidade Sorriso">
+												<figure><img style="aspect-ratio:100/100" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-square.png" data-src="https://www.viajali.com.br/wp-content/uploads/2023/07/pousadas-em-minas-gerais-0015-100x100.jpg" width="100" height="100" alt="25 bares em Niterói (RJ): conheça a boemia da Cidade Sorriso" class="img-responsive"></figure>
+												<p>25 bares em Niterói (RJ): conheça a boemia da Cidade Sorriso</p>
+												<div class="clearfix"></div>
+											</a>
+										</div>
+																		<div class="adol_views_cnt">
+										   <a href="https://www.viajali.com.br/bares-rua-augusta/" title="12 bares na Rua Augusta para entrar na vibe alternativa do destino">
+												<figure><img style="aspect-ratio:100/100" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-square.png" data-src="https://www.viajali.com.br/wp-content/uploads/2023/06/bares-rua-augusta-x01-1-100x100.jpg" width="100" height="100" alt="12 bares na Rua Augusta para entrar na vibe alternativa do destino" class="img-responsive"></figure>
+												<p>12 bares na Rua Augusta para entrar na vibe alternativa do destino</p>
+												<div class="clearfix"></div>
+											</a>
+										</div>
+															</div>	
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div id="fixed" class="text-center adbg visible-md visible-lg">
+						<!-- /1023048/viajali/viajali_ros_fixed -->
+						<!-- /1023048/viajali/viajali_300x600_1 -->
+<div id='div-gpt-ad-1684497036080-0' style='min-width: 300px; min-height: 600px;'>
+  <script type="lazyload_int" >
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1684497036080-0'); });
+  </script>
+</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<div class="footer_social ">
+  <div class="container">
+    <div class="row">
+      <div class="social_left">
+        <a href="https://www.viajali.com.br" title="Ir para home">
+          <figure>
+            <img style="aspect-ratio:115/43" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-h.png" data-src="https://www.viajali.com.br/wp-content/themes/ctt-viajali/images/viajali.png" width="150" height="32" alt="Viajali" class="img-responsive">
+          </figure>
+        </a>
+        <ul>
+          <li><a href="https://www.viajali.com.br/sobre">SOBRE</a></li>
+          <li><a href="https://www.viajali.com.br/termos-de-uso">TERMOS DE USO</a></li>
+          <li><a href="https://www.viajali.com.br/privacidade">POLÍTICA DE PRIVACIDADE</a></li>
+          <li><a href="https://www.viajali.com.br/contato">CONTATO</a></li>
+        </ul>
+        <div class="clearfix"></div>
+      </div>
+      <div class="social_right">
+        <h4>Viajali nas redes sociais</h4>
+        <ul>
+          <li><a href="https://www.facebook.com/viajalioficial/" target="_blank" class="fb"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com/viajali/" target="_blank" class="square"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="https://br.pinterest.com/viajali/" target="_blank" class="pinte"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+          <li><a href="https://twitter.com/viajali/" target="_blank" class="twitt"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        </ul>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="container">
+    <div class="row">
+     <div class="footer_left">
+      <a href="http://www.contteudo.com" target="_blank" rel="nofollow">
+        <figure>
+          <img style="aspect-ratio:124/21" data-class="LazyLoad" src="https://www.viajali.com.br/wp-content/uploads/blank-h.png" data-src="https://www.viajali.com.br/wp-content/themes/ctt-viajali/images/contteudo.png" width="124" height="21" alt="Contteudo">
+        </figure>
+      </a>
+      <p>© 2023 CONTTEUDO MEDIA GROUP, TODOS OS DIREITOS RESERVADOS.</p>
+    </div>
+    <div class="footer_right">
+      <ul>
+        <li><a href="http://www.contteudo.com" target="_blank" rel="nofollow">SOBRE A CONTTEUDO</a></li>
+        <li><a href="http://www.contteudo.com/#anuncie" target="_blank" rel="nofollow">ANUNCIE</a></li>
+        <li><a href="http://www.contteudo.com/#contato" target="_blank" rel="nofollow">CONTATO</a></li>
+      </ul>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+</footer>
+
+
+</div>
+
+
+<script type="lazyload_int" data-src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" ></script>
+<script type="lazyload_int" data-src="https://www.viajali.com.br/wp-content/cache/w3-cache/all-js/162a2df66ffe5b5ddd519570b3e7bdb1.js"></script>
+<script type="lazyload_int" data-src="https://www.viajali.com.br/wp-content/cache/w3-cache/all-js/1b4e2dec7553b2fb0e331419411f9879.js"></script>
+<script type="lazyload_int" data-src="https://www.viajali.com.br/wp-content/cache/w3-cache/all-js/e2612baafa2b2d2dad8f1a969693c1d6.js"></script>
+
+
+
+<script type="lazyload_int" >
+
+  $(document).ready(function(){
+
+    $('#back-to-top').click(function () {
+      $('#back-to-top').tooltip('hide');
+      $('body,html').animate({
+        scrollTop: 0
+      }, 800);
+      return false;
+    });
+
+    $('#back-to-top').tooltip('show');
+
+  });
+
+  
+    $.lockfixed("#fixed",{offset: {top: 80, bottom: 2000}});
+
+    $('.popup').click(function(event) {
+      event.preventDefault();
+      window.open($(this).attr("href"), "popupWindow", "width=600,height=600,scrollbars=yes");
+    });
+
+    $(document).ready(function(e) {
+      var distance = $('.escri').offset().top,
+      $window = $(window);
+      $window.scroll(function() {
+        if ( $window.scrollTop() >= distance ) {
+          $("body").addClass('sticky');
+        }else {
+          $("body").removeClass('sticky');
+        }
+      });
+      $('button.navbar-toggle').click(function(e) {
+        $('body').toggleClass('side_bar');
+      });
+      $('nav .nav > li > a.close, .layer').click(function(e) {
+        $('body').removeClass('side_bar');
+      });
+      $('.scroll .social').clone().appendTo('.menu_social');
+
+      $('.search button').click(function(){
+        $(this).toggleClass('search_ico');
+        $('.search2').slideToggle();
+        $('body').toggleClass('side_bar_ovrl');
+      })
+      $('nav ul li.dropmenu > span').click(function(){
+        $('.drop').slideToggle();
+        $(this).toggleClass('open2');
+
+      })
+      $("#progress-bar").onscroll({backgroundColor: '#1AB0CA', height:'2px', position: 'fixed'});
+    });
+  </script>
+
+ <script type="lazyload_int" >
+
+  $(document).ready(function(e) {
+
+    $('[id^=carousel-selector-]').click( function(){
+      var id_selector = $(this).attr("id");
+      var id = id_selector.substr(id_selector.length -1);
+      id = parseInt(id);
+      $('#myCarousel').carousel(id);
+      $('[id^=carousel-selector-]').removeClass('selected');
+      $(this).addClass('selected');
+    });
+
+    $('#myCarousel').on('slide', function (e) {
+
+
+      var id = $('.item.active').data('slide-number');
+      id = parseInt(id);
+      $('[id^=carousel-selector-]').removeClass('selected');
+      $('[id=carousel-selector-'+id+']').addClass('selected');
+
+    });
+
+  });
+
+</script>
+
+<script type="lazyload_int" >
+  // thumbnails.carousel.js jQuery plugin
+  (function(window, $, undefined) {
+
+    var conf = {
+      center: true,
+      backgroundControl: false
+    };
+
+    var cache = {
+      $carouselContainer: $('.thumbnails-carousel').parent(),
+      $thumbnailsLi: $('.thumbnails-carousel li'),
+      $controls: $('.thumbnails-carousel').parent().find('.carousel-control')
+    };
+
+    function init() {
+      cache.$carouselContainer.find('ol.carousel-indicators').addClass('indicators-fix');
+      cache.$thumbnailsLi.first().addClass('active-thumbnail');
+
+      if(!conf.backgroundControl) {
+        cache.$carouselContainer.find('.carousel-control').addClass('controls-background-reset');
+      }
+      else {
+        cache.$controls.height(cache.$carouselContainer.find('.carousel-inner').height());
+      }
+
+      if(conf.center) {
+        cache.$thumbnailsLi.wrapAll("<div class='center clearfix'></div>");
+      }
+    }
+
+    function refreshOpacities(domEl) {
+      cache.$thumbnailsLi.removeClass('active-thumbnail');
+      cache.$thumbnailsLi.eq($(domEl).index()).addClass('active-thumbnail');
+    }
+
+    function bindUiActions() {
+      cache.$carouselContainer.on('slide.bs.carousel', function(e) {
+        refreshOpacities(e.relatedTarget);
+      });
+
+      cache.$thumbnailsLi.click(function(){
+        cache.$carouselContainer.carousel($(this).index());
+      });
+    }
+
+    $.fn.thumbnailsCarousel = function(options) {
+      conf = $.extend(conf, options);
+
+      init();
+      bindUiActions();
+
+      return this;
+    }
+
+  })(window, jQuery);
+
+  $('.thumbnails-carousel').thumbnailsCarousel();
+  $('.carousel').carousel({
+    interval: 4000 * 2
+  });
+
+  $(".wp-caption").removeAttr('style');
+
+  $('#Continuar').click(function() {
+    $('.continuar').hide();
+  });
+
+
+</script>
+
+
+
+<script async="" defer="defer" data-pin-hover="true" data-pin-tall="true" data-pin-lang="pt-br" data-pin-save="true" type="lazyload_int" data-src="//assets.pinterest.com/js/pinit.js" ></script>
+<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top visible-md visible-lg"><span class="glyphicon glyphicon-chevron-up"></span></a>
+
+
+
+  <link rel="stylesheet" href="https://www.viajali.com.br/wp-content/uploads/blank.css" data-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css?display=swap">
+  
+	<script type="lazyload_int" data-src="https://www.dwin2.com/pub.691835.min.js" ></script>
+
+  
+
+  
+    <script type="lazyload_int" >
+        jQuery(document).ready(function($) {
+            function handleGeotargeting() {
+                userCountry = userCountry.toLowerCase(), localizedStores.hasOwnProperty(userCountry) && (storeTarget = localizedStores[userCountry],
+                storeTarget === storeCountry || trackingIds.hasOwnProperty(storeTarget) && (localTrackingId = trackingIds[storeTarget],
+                update_amazon_links(storeCountry, storeTarget, localTrackingId)));
+            }
+            function getCountry() {
+                getCountryFromApiGeoipdb();
+            }
+            function getCountryFromApiGeoipdb() {
+                var requestUrl = "https://geolocation-db.com/jsonp/";
+                (requestUrl = "https://geolocation-db.com/jsonp/"), jQuery.ajax({
+                    url: requestUrl,
+                    jsonpCallback: "callback",
+                    dataType: "jsonp",
+                    success: function(response) {
+                        console.log(response);
+                        "undefined" != typeof response.IPv4 && "undefined" != typeof response.country_code && (userCountry = response.country_code,
+                            setGeotargetingCookie(userCountry)), handleGeotargeting();
+                    }
+                });
+            }
+
+            function update_amazon_links(storeOld, storeNew, trackingId) {
+                null !== trackingId && $("a[href*='/amazon'], a[href*='/www.amazon'], a[href*='/amzn'], a[href*='/www.amzn']").each(function(el) {
+                    var url = $(this).attr("href");
+                    url = get_url_mode_title($(this), url, storeOld, storeNew),
+                    void 0 !== url && (url = replaceUrlParam(url, "tag", trackingId), $(this).attr("href", url));
+                });
+            }
+            function get_url_mode_title(linkElement, url, storeOld, storeNew) {
+                var productTitle = linkElement.data("post-title");
+                return productTitle || (productTitle = linkElement.parents().filter(function() {
+                    return $(this).data("post-title");
+                }).eq(0).data("post-title")), productTitle && (productTitle = getWords(productTitle, 5),
+                    url = "https://www.amazon." + storeNew + "/s/?field-keywords=" + encodeURIComponent(productTitle)),
+                    url;
+            }
+            function replaceUrlParam(url, paramName, paramValue) {
+                null == paramValue && (paramValue = "");
+                var pattern = new RegExp("\\b(" + paramName + "=).*?(&|$)");
+                return url.search(pattern) >= 0 ? url.replace(pattern, "$1" + paramValue + "$2") : url + (url.indexOf("?") > 0 ? "&" : "?") + paramName + "=" + paramValue;
+            }
+            function getWords(str, max) {
+                return str.split(/\s+/).slice(0, max).join(" ");
+            }
+            function setGeotargetingCookie(countryCode) {
+                countryCode && setCookieAff("affiliatable-geotargeting", countryCode,1);
+            }
+            function setCookieAff(key, value, expiry) {
+                var expires = new Date();
+                expires.setTime(expires.getTime() + (expiry * 24 * 60 * 60 * 1000));
+                document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
+            }
+
+            function getCookieAff(key) {
+                var keyValue = document.cookie.match('(^|;) ?' + key + '=([^;]*)(;|$)');
+                return keyValue ? keyValue[2] : 'Not found';
+            }
+            function getGeotargetingDebugIP() {
+                var vars = {};
+                return window.location.href.replace(location.hash, "").replace(/[?&]+([^=&]+)=?([^&]*)?/gi, function(m, key, value) {
+                    vars[key] = void 0 !== value ? value : "";
+                }), vars.affiliatable_debug_geotargeting_ip ? vars.affiliatable_debug_geotargeting_ip : "";
+            }
+            if ("undefined" != typeof affiliatable_geotargeting_settings && "undefined" != typeof affiliatable_geotargeting_localized_stores && "undefined" != typeof affiliatable_geotargeting_tracking_ids) {
+                var devIP = getGeotargetingDebugIP(), api = "undefined" != typeof affiliatable_geotargeting_api ? affiliatable_geotargeting_api : "", settings = affiliatable_geotargeting_settings, localizedStores = affiliatable_geotargeting_localized_stores, trackingIds = affiliatable_geotargeting_tracking_ids;
+                if (!settings.hasOwnProperty("store"))
+                    return;
+                var urlMode = settings.hasOwnProperty("mode") ? settings.mode : "mode", storeCountry = settings.store, storeTarget = "", userCountry = "", localTrackingId = "", geotargetingCookie = getCookieAff('affiliatable-geotargeting');
+                console.log(geotargetingCookie);
+                if (geotargetingCookie!=='Not found'){
+                    userCountry = geotargetingCookie;
+                    handleGeotargeting();
+                }
+                else{
+                    getCountry()
+                }
+            }
+        });
+    </script>
+
+    <script type="lazyload_int" >
+        function affiliatable_click_save(data){
+            jQuery.ajax({
+                method:'POST',
+                data:data,
+                action:'affiliatable_link_click',
+                url: "/wp-admin/admin-ajax.php",
+                success: function(value) {
+
+                }
+            });
+        }
+        jQuery('.cg-aff-link').click(function ($) {
+            var $this=jQuery(this);
+            var page=window.location.href;
+            var post_type=$this.attr('data-post-type');
+            var post_id=$this.attr('data-post-id');
+            var link=$this.attr('href');
+            var title=$this.attr('data-post-title');
+            if (post_type!=='') {
+                affiliatable_click_save({
+                    page: page,
+                    post_type: post_type,
+                    link: link,
+                    title: title,
+                    city: '',
+                    country: '',
+                    action: 'affiliatable_link_click',
+                    post_id: post_id
+                });
+            }
+        });
+    </script>
+    
+    <style>
+    #ctt_w_cookie_notice{
+        position: fixed;
+        left: 15px;
+        bottom: 0;
+        display: flex;
+        width: 98vw;
+        justify-content: center;
+        z-index: 29999999;
+        color: #FFF;
+        overflow: hidden;
+        padding-bottom: 10px;
+    }
+    #ctt_w_cookie_notice a{
+        color: #FFF;
+        font-weight: bold;
+        text-decoration: none;
+        display: inline;
+         font-size: 14px;
+    }
+    #ctt_w_cookie_notice a:hover{
+        text-decoration: underline;
+    }
+    #ctt_cookie_notice{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        opacity: .9;
+        max-width: 2000px;
+        height: 70px;
+        padding: 27px;
+        background-color: #172835;
+        box-shadow: 0 8px 6px 0 rgb(0 0 0 / 41%);
+        border-radius: 5px;
+        overflow: hidden;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin: 0 10px 0 20px
+    }
+    #ctt_cookie_notice .ctt_cn_text{
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 4px;
+    }
+    #ctt_cookie_notice button{
+        position: relative;
+        display: inline-block;
+        width: 118px;
+        height: 36px;
+        margin-left:20px;
+        line-height: 34px;
+        background: #e9b425;
+        border-radius: 1px;
+        cursor: pointer;
+        color: #000;
+        border: none;
+        box-shadow: inset 0 -2px 0 0 rgb(0 0 0 / 40%);
+        transition: all .3s;
+        padding: 0;
+        font-size: 16px;
+    }
+    #ctt_cookie_notice  button:hover{
+        -webkit-filter: grayscale(50%);
+        filter: grayscale(50%);
+        cursor: pointer;
+    }
+    @media (max-width: 800px) {
+	    
+	    #ctt_w_cookie_notice {
+		    left:0 !important;
+	    }
+        #ctt_cookie_notice{
+            flex-direction: column;
+            height: auto;
+            padding: 5px 10px 15px;
+        }
+        #ctt_cookie_notice .ctt_cn_text{
+            font-size: 15px;
+            padding: 10px;
+        }
+        #ctt_cookie_notice button{
+            text-align: center;
+            margin: 5px 0 0;
+        }
+    }
+    </style>
+
+       
+
+    <script type="lazyload_int" >
+    document.body.onload = addElement;
+    
+    function addElement(){
+
+        let ctt_cn_ac = getCookie("ctt_cn_ac");
+
+        if(ctt_cn_ac == ""){
+
+            var div_cnotice = document.createElement("div");
+            var divAtual    = document.getElementById("div1");
+
+            div_cnotice.setAttribute("id","ctt_w_cookie_notice");
+
+            div_cnotice.innerHTML = '<div id=\'ctt_cookie_notice\'><div class=\'ctt_cn_text\'>Utilizamos cookies essenciais e tecnologias semelhantes de acordo com a nossa <a href=\'https://www.viajali.com.br/privacidade/\'>Política de Privacidade</a>. Ao continuar navegando, você concorda com essas condições.</div><div class=\'ctt_cn_btn\'><button onclick=\'acceptCookies()\'>Ok</button></div></div>';
+
+            setTimeout(function(){ document.body.insertBefore(div_cnotice, divAtual); }, 100);
+        }
+    }
+
+    function acceptCookies(){
+        setCookie("ctt_cn_ac", true, 180);
+        document.getElementById("ctt_w_cookie_notice").remove();
+		document.getElementById("ctt_w_cookie_notice").remove();
+    }
+
+    function setCookie(cname, cvalue, exdays){
+
+        const d = new Date();
+
+        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+
+        let expires     = "expires="+d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+
+    function getCookie(cname){
+
+        let name = cname + "=";
+        let ca = document.cookie.split(';');
+
+        for(let i = 0; i < ca.length; i++){
+
+            let c = ca[i];
+
+            while (c.charAt(0) == ' '){
+
+                c = c.substring(1);
+            }
+
+            if (c.indexOf(name) == 0){
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+    </script>
+
+    <script type="lazyload_int" id="affiliatable_js-js" data-src="https://cdn.affiliatable.io/5670e55e4d3459091885818c74beba82.js" ></script>
+<script type='text/javascript' id='ctt-rating-js-js-extra'>
+/* <![CDATA[ */
+var ctt_object = {"ajax_url":"https:\/\/www.viajali.com.br\/wp-admin\/admin-ajax.php","nonce":"89e77cd930","ctt_debug":""};
+/* ]]> */
+</script>
+<script type="lazyload_int" data-src="https://www.viajali.com.br/wp-content/cache/w3-cache/all-js/a8489e9cff95682294313a8ab9ba49ff.js"></script>
+	<script type="lazyload_int" data-src="https://www.viajali.com.br/wp-content/cache/w3-cache/all-js/e934617472e1f4b255320ad66794fab1.js"></script><script>var w3_menuclicked = 0;
+var w3_menu = document.getElementsByClassName("navbar-toggle");
+var w3_html = document.getElementsByTagName('html')[0];
+var clickFunction = function() {
+    console.log(1);
+    if(!w3_html.classList.contains('w3_js')){
+       w3_menuclicked=1;
+    }
+};
+for (var i = 0; i < w3_menu.length; i++) {
+    w3_menu[i].addEventListener('click', clickFunction, false);
+}</script><script>function w3_to_webp(elementImg){for(var ig=0;ig<elementImg.length;ig++){if(elementImg[ig].getAttribute("data-src")!=null&&elementImg[ig].getAttribute("data-src")!=""){var datasrc=elementImg[ig].getAttribute("data-src");elementImg[ig].setAttribute("data-src",datasrc.replace("w3.webp","").replace(w3_webp_path,w3_upload_path));}
+if(elementImg[ig].getAttribute("data-srcset")!=null&&elementImg[ig].getAttribute("data-srcset")!=""){var datasrcset=elementImg[ig].getAttribute("data-srcset");elementImg[ig].setAttribute("data-srcset",datasrcset.replace(/w3.webp/g,"").split(w3_webp_path).join(w3_upload_path));}
+if(elementImg[ig].src!=null&&elementImg[ig].src!=""){var src=elementImg[ig].src;elementImg[ig].src=src.replace("w3.webp","").replace(w3_webp_path,w3_upload_path);}
+if(elementImg[ig].srcset!=null&&elementImg[ig].srcset!=""){var srcset=elementImg[ig].srcset;elementImg[ig].srcset=srcset.replace(/w3.webp/g,"").split(w3_webp_path).join(w3_upload_path);}}}
+function fixwebp(){if(!w3_hasWebP){var elementNames=["*"];w3_to_webp(document.querySelectorAll("img[data-src$='w3.webp']"));w3_to_webp(document.querySelectorAll("img[src$='w3.webp']"));elementNames.forEach(function(tagName){var tags=document.getElementsByTagName(tagName);var numTags=tags.length;for(var i=0;i<numTags;i++){var tag=tags[i];var style=tag.currentStyle||window.getComputedStyle(tag,false);var bg=style.backgroundImage;if(bg.match("w3.webp")){if(document.all){tag.style.setAttribute("cssText",";background-image: "+bg.replace("w3.webp","").replace(w3_webp_path,w3_upload_path)+" !important;");}else{tag.setAttribute("style",tag.getAttribute("style")+";background-image: "+bg.replace("w3.webp","").replace(w3_webp_path,w3_upload_path)+" !important;");}}}});}}
+function w3_change_webp(){if(bg.match("w3.webp")){var style1={};if(document.all){tag.style.setAttribute("cssText","background-image: "+bg.replace("w3.webp","").replace(w3_webp_path,w3_upload_path)+" !important");style1=tag.currentStyle||window.getComputedStyle(tag,false);}else{tag.setAttribute("style","background-image: "+bg.replace("w3.webp","").replace(w3_webp_path,w3_upload_path)+" !important");style1=tag.currentStyle||window.getComputedStyle(tag,false);}}}
+var w3_hasWebP=false,w3_bglazyload=1;(function(){var img=new Image();img.onload=function(){w3_hasWebP=!!(img.height>0&&img.width>0);};img.onerror=function(){w3_hasWebP=false;fixwebp();};img.src=blank_image_webp_url;})();function w3_events_on_end_js(){const lazy_bg_style=document.getElementById("w3_bg_load");lazy_bg_style.remove();w3_bglazyload=0;lazyloadimages(0);}
+function w3_start_img_load(){var top=this.scrollY;lazyloadimages(top);lazyloadiframes(top);}
+function w3_events_on_start_js(){var lazyvideos=document.getElementsByTagName("videolazy");convert_to_video_tag(lazyvideos);w3_start_img_load();}
+window.addEventListener("scroll",function(event){w3_start_img_load();},{passive:true});var w3_is_mobile=(window.matchMedia("(max-width: 767px)").matches?1:0);var win_width=screen.availWidth;var bodyRectMain={};bodyRectMain.top=1;setInterval(function(){lazyloadiframes(top);},8000);setInterval(function(){lazyloadimages(0);fixwebp();},3000);document.addEventListener("click",function(){lazyloadimages(0);});function getDataUrl(img1,width,height){var myCanvas=document.createElement("canvas");var ctx=myCanvas.getContext("2d");var img=new Image();myCanvas.width=parseInt(width);myCanvas.height=parseInt(height);ctx.drawImage(img,0,0);img1.src=myCanvas.toDataURL("image/png");}
+function lazyload_img(imgs,bodyRect,window_height,win_width){for(var i=0;i<imgs.length;i++){if(imgs[i].getAttribute("data-class")=="LazyLoad"){var elem=imgs[i],elemRect=imgs[i].getBoundingClientRect();if(elemRect.top!=0&&(elemRect.top-(window_height-bodyRect.top))<w3_lazy_load_by_px){compStyles=window.getComputedStyle(imgs[i]);if(compStyles.getPropertyValue("opacity")==0){continue;}
+if(elem.tagName=="IFRAMELAZY"){var elem=document.createElement("iframe");var index;for(index=imgs[i].attributes.length-1;index>=0;--index){elem.attributes.setNamedItem(imgs[i].attributes[index].cloneNode());}
+imgs[i].parentNode.replaceChild(elem,imgs[i]);}
+var src=elem.getAttribute("data-src")?elem.getAttribute("data-src"):elem.src;if(w3_is_mobile&&elem.getAttribute("data-mob-src")){src=elem.getAttribute("data-mob-src");}
+var srcset=elem.getAttribute("data-srcset")?elem.getAttribute("data-srcset"):"";if(!srcset){elem.onload=function(){this.setAttribute("data-done","Loaded");if(typeof(w3speedup_after_iframe_img_load)=="function"){w3speedup_after_iframe_img_load(this);}}
+elem.onerror=function(){if(this.getAttribute("data-mob-src")&&w3_is_mobile&&this.getAttribute("data-src")){this.src=this.getAttribute("data-src");}}}
+elem.src=src;if(srcset!=null&srcset!=""){elem.srcset=srcset;}
+delete elem.dataset.class;}}}}
+function w3_load_dynamic_blank_img(imgs){for(var i=0;i<imgs.length;i++){if(imgs[i].getAttribute("data-class")=="LazyLoad"){var blanksrc=imgs[i].src;if(typeof(blanksrc)!="undefined"&&blanksrc.indexOf("data:")==-1){if(imgs[i].getAttribute("width")!=null&&imgs[i].getAttribute("height")!=null){var width=parseInt(imgs[i].getAttribute("width"));var height=parseInt(imgs[i].getAttribute("height"));getDataUrl(imgs[i],width,height);}}}}}
+function convert_to_video_tag(imgs){const t=imgs.length>0?imgs[0]:"";if(t){delete imgs[0];var newelem=document.createElement("video");var index;for(index=t.attributes.length-1;index>=0;--index){newelem.attributes.setNamedItem(t.attributes[index].cloneNode());}
+newelem.innerHTML=t.innerHTML;t.parentNode.replaceChild(newelem,t);if(typeof(newelem.getAttribute("data-poster"))=="string"){newelem.setAttribute("poster",newelem.getAttribute("data-poster"));}
+convert_to_video_tag(imgs);}}
+function lazyload_video(imgs,bodyRect,top,window_height,win_width){for(var i=0;i<imgs.length;i++){var elem=imgs[i],elemRect=imgs[i].getBoundingClientRect();if(elemRect.top!=0&&(elemRect.top-(window_height-bodyRect.top))<w3_lazy_load_by_px){if(typeof(imgs[i].getElementsByTagName("source")[0])=="undefined"){lazyload_video_source(imgs[i],top,window_height,win_width,elemRect,bodyRect);}else{var sources=imgs[i].getElementsByTagName("source");for(var j=0;j<sources.length;j++){var source=sources[j];lazyload_video_source(source,top,window_height,win_width,elemRect,bodyRect);}}}}}
+function lazyload_video_source(source,top,window_height,win_width,elemRect,bodyRect){if(typeof source!="undefined"&&source.getAttribute("data-class")=="LazyLoad"){if(elemRect.top!=0&&(elemRect.top-(window_height-bodyRect.top))<w3_lazy_load_by_px){var src=source.getAttribute("data-src")?source.getAttribute("data-src"):source.src;var srcset=source.getAttribute("data-srcset")?source.getAttribute("data-srcset"):"";if(source.srcset!=null&source.srcset!=""){source.srcset=srcset;}
+if(typeof(source.getElementsByTagName("source")[0])=="undefined"){if(source.tagName=="SOURCE"){source.parentNode.src=src;source.parentNode.load();if(source.parentNode.getAttribute("autoplay")!==null){source.parentNode.play();}}else{source.src=src;source.load();if(source.getAttribute("autoplay")!==null){source.play();}}}else{source.parentNode.src=src;}
+delete source.dataset.class;source.setAttribute("data-done","Loaded");}}}
+function lazyload_imgbgs(imgbgs,bodyRect,window_height,win_width){for(var i=0;i<imgbgs.length;i++){var elem=imgbgs[i],elemRect=imgbgs[i].getBoundingClientRect(),offset=elemRect.top-bodyRect.top;if((elemRect.top-(window_height-bodyRect.top))<w3_lazy_load_by_px){elem.classList.add("w3_bg");}}}
+function lazyloadimages(top){var imgs=document.querySelectorAll("img[data-class=LazyLoad]");var imgbgs=document.querySelectorAll("div:not(.w3_js), section:not(.w3_js), iframelazy:not(.w3_js)");var sources=document.getElementsByTagName("video");var sources_audio=document.getElementsByTagName("audio");var bodyRect=document.body.getBoundingClientRect();var window_height=window.innerHeight;var win_width=screen.availWidth;if(typeof(load_dynamic_img)!="undefined"){w3_load_dynamic_blank_img(imgs);delete load_dynamic_img;}
+if(w3_bglazyload&&((bodyRect.top<50&&bodyRectMain.top==1)||Math.abs(bodyRectMain.top)-Math.abs(bodyRect.top)<-50||Math.abs(bodyRectMain.top)-Math.abs(bodyRect.top)>50)){bodyRectMain=bodyRect;lazyload_imgbgs(imgbgs,bodyRect,window_height,win_width);}
+lazyload_img(imgs,bodyRect,window_height,win_width);lazyload_video(sources,bodyRect,top,window_height,win_width);lazyload_video(sources_audio,bodyRect,top,window_height,win_width);}
+lazyloadimages(0);function lazyloadiframes(top){var bodyRect=document.body.getBoundingClientRect();var window_height=window.innerHeight;var win_width=screen.availWidth;var iframes=document.querySelectorAll("iframelazy[data-class=LazyLoad]");lazyload_img(iframes,bodyRect,window_height,win_width);}</script></body>
+</html>
+<!-- Dynamic page generated in 0.132 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2023-09-15 08:44:19 -->
+
+<!-- super cache -->
