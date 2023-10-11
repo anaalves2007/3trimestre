@@ -19,6 +19,7 @@ img{
 }
 .cabecalho{
     background-color: brown;
+    display: flex;
 }
 .lista_cabecalho{
     display: flex;
@@ -30,3 +31,6 @@ img{
     list-style: none;
     font-size: 30px;
 }
+        .logo_cabecalho{
+            width: 100px;
+        }
