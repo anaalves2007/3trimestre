@@ -17,8 +17,16 @@ img{
     margin: 50px;
     margin-left: 30px;
 }
-lista cabecalho{
+.cabecalho{
+    background-color: brown;
+}
+.lista_cabecalho{
     display: flex;
     margin-left: 30px;
     list-style: none;
+}
+.item_lista_cabecalho{
+    padding-left: 30px;
+    list-style: none;
+    font-size: 30px;
 }
