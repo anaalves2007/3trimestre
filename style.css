@@ -23,7 +23,7 @@ img{
 }
 .lista_cabecalho{
     display: flex;
-    margin-left: 30px;
+    margin-left: 600px;
     list-style: none;
 }
 .item_lista_cabecalho{
@@ -33,4 +33,5 @@ img{
 }
         .logo_cabecalho{
             width: 100px;
+            height: 100px;
         }
